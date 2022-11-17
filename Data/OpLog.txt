@@ -1,0 +1,4686 @@
+CREATE Messages.ISO.CAMTx053x001x02.Tns.GroupHeader42Ct
+VALUE string 3132407
+SET Seq.MsgId
+VALUE date 2018-12-18T02:50:52
+SET Seq.CreDtTm
+CREATE Messages.ISO.CAMTx053x001x02.Tns.PartyIdentification32Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.Party6ChoiceCt
+CREATE Messages.ISO.CAMTx053x001x02.Tns.OrganisationIdentification4Ct
+ENTER Seq.Othrs
+CREATE Messages.ISO.CAMTx053x001x02.Tns.GenericOrganisationIdentification1Ct
+VALUE string 00331127800005
+SET Seq.Id
+CREATE Messages.ISO.CAMTx053x001x02.Tns.OrganisationIdentificationSchemeName1ChoiceCt
+VALUE string BANK
+SET Seq.Chc.Cd
+SET Seq.SchmeNm
+ADD
+EXIT LIST
+SET Seq.Chc.OrgId
+SET Seq.Id
+SET Seq.MsgRcpt
+SET Seq.GrpHdr
+ENTER Seq.Stmts
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AccountStatement2Ct
+VALUE string STOIID65181218023535000007
+SET Seq.Id
+VALUE number 244
+SET Seq.ElctrncSeqNb
+VALUE number 244
+SET Seq.LglSeqNb
+VALUE date 2018-12-18T02:35:35
+SET Seq.CreDtTm
+CREATE Messages.ISO.CAMTx053x001x02.Tns.DateTimePeriodDetailsCt
+VALUE date 2018-12-17T00:00:00
+SET Seq.FrDtTm
+VALUE date 2018-12-17T23:59:59
+SET Seq.ToDtTm
+SET Seq.FrToDt
+CREATE Messages.ISO.CAMTx053x001x02.Tns.CashAccount20Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AccountIdentification4ChoiceCt
+CREATE Messages.ISO.CAMTx053x001x02.Tns.GenericAccountIdentification1Ct
+VALUE string 54401060156
+SET Seq.Id
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AccountSchemeName1ChoiceCt
+VALUE string BBAN
+SET Seq.Chc.Cd
+SET Seq.SchmeNm
+SET Seq.Chc.Othr
+SET Seq.Id
+VALUE string SEK
+SET Seq.Ccy
+CREATE Messages.ISO.CAMTx053x001x02.Tns.PartyIdentification32Ct
+VALUE string TEST Customer
+SET Seq.Nm
+CREATE Messages.ISO.CAMTx053x001x02.Tns.Party6ChoiceCt
+CREATE Messages.ISO.CAMTx053x001x02.Tns.OrganisationIdentification4Ct
+ENTER Seq.Othrs
+CREATE Messages.ISO.CAMTx053x001x02.Tns.GenericOrganisationIdentification1Ct
+VALUE string 00331127800005
+SET Seq.Id
+CREATE Messages.ISO.CAMTx053x001x02.Tns.OrganisationIdentificationSchemeName1ChoiceCt
+VALUE string BANK
+SET Seq.Chc.Cd
+SET Seq.SchmeNm
+ADD
+EXIT LIST
+SET Seq.Chc.OrgId
+SET Seq.Id
+SET Seq.Ownr
+CREATE Messages.ISO.CAMTx053x001x02.Tns.BranchAndFinancialInstitutionIdentification4Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.FinancialInstitutionIdentification7Ct
+VALUE string ESSESESSXXX
+SET Seq.BIC
+SET Seq.FinInstnId
+SET Seq.Svcr
+SET Seq.Acct
+ENTER Seq.Intrsts
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AccountInterest2Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.InterestType1ChoiceCt
+VALUE enum Messages.ISO.CAMTx053x001x02.Tns.InterestType1CodeEnum OVRN
+SET Seq.Chc.Cd
+SET Seq.Tp
+ENTER Seq.Rates
+CREATE Messages.ISO.CAMTx053x001x02.Tns.Rate3Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.RateType4ChoiceCt
+VALUE number 4.5
+SET Seq.Chc.Pctg
+SET Seq.Tp
+CREATE Messages.ISO.CAMTx053x001x02.Tns.CurrencyAndAmountRange2Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ImpliedCurrencyAmountRangeChoiceCt
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AmountRangeBoundary1Ct
+VALUE number NULL
+EXIT OBJECT/VALUE
+VALUE bool NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.FromToAmountRangeCt
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AmountRangeBoundary1Ct
+VALUE number 0.00
+SET Seq.BdryAmt
+VALUE bool True
+SET Seq.Incl
+SET Seq.FrAmt
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AmountRangeBoundary1Ct
+VALUE number 2500000.00
+SET Seq.BdryAmt
+VALUE bool True
+SET Seq.Incl
+SET Seq.ToAmt
+SET Seq.Chc.FrToAmt
+SET Seq.Amt
+VALUE enum Messages.ISO.CAMTx053x001x02.Tns.CreditDebitCodeEnum DBIT
+SET Seq.CdtDbtInd
+VALUE string SEK
+SET Seq.Ccy
+SET Seq.VldtyRg
+ADD
+EXIT LIST
+ADD
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AccountInterest2Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.InterestType1ChoiceCt
+VALUE enum Messages.ISO.CAMTx053x001x02.Tns.InterestType1CodeEnum OVRN
+SET Seq.Chc.Cd
+SET Seq.Tp
+ENTER Seq.Rates
+CREATE Messages.ISO.CAMTx053x001x02.Tns.Rate3Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.RateType4ChoiceCt
+VALUE number 12.75
+SET Seq.Chc.Pctg
+SET Seq.Tp
+CREATE Messages.ISO.CAMTx053x001x02.Tns.CurrencyAndAmountRange2Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ImpliedCurrencyAmountRangeChoiceCt
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AmountRangeBoundary1Ct
+VALUE number 2500000.00
+SET Seq.BdryAmt
+VALUE bool False
+SET Seq.Incl
+SET Seq.Chc.FrAmt
+CREATE Messages.ISO.CAMTx053x001x02.Tns.FromToAmountRangeCt
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AmountRangeBoundary1Ct
+VALUE number NULL
+EXIT OBJECT/VALUE
+VALUE bool NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AmountRangeBoundary1Ct
+VALUE number NULL
+EXIT OBJECT/VALUE
+VALUE bool NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+SET Seq.Amt
+VALUE enum Messages.ISO.CAMTx053x001x02.Tns.CreditDebitCodeEnum DBIT
+SET Seq.CdtDbtInd
+VALUE string SEK
+SET Seq.Ccy
+SET Seq.VldtyRg
+ADD
+EXIT LIST
+ADD
+EXIT LIST
+ENTER Seq.Bals
+CREATE Messages.ISO.CAMTx053x001x02.Tns.CashBalance3Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.BalanceType12Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.BalanceType5ChoiceCt
+VALUE enum Messages.ISO.CAMTx053x001x02.Tns.BalanceType12CodeEnum OPBD
+SET Seq.Chc.Cd
+SET Seq.CdOrPrtry
+SET Seq.Tp
+CREATE Messages.ISO.CAMTx053x001x02.Tns.CreditLine2Ct
+VALUE bool NULL
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ActiveOrHistoricCurrencyAndAmountCt
+VALUE string NULL
+EXIT OBJECT/VALUE
+VALUE number NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ActiveOrHistoricCurrencyAndAmountCt
+VALUE string SEK
+SET Ccy
+VALUE number 3865371.31
+SET Value
+SET Seq.Amt
+VALUE enum Messages.ISO.CAMTx053x001x02.Tns.CreditDebitCodeEnum CRDT
+SET Seq.CdtDbtInd
+CREATE Messages.ISO.CAMTx053x001x02.Tns.DateAndDateTimeChoiceCt
+VALUE date 2018-12-17T00:00:00
+SET Seq.Chc.Dt
+SET Seq.Dt
+ADD
+CREATE Messages.ISO.CAMTx053x001x02.Tns.CashBalance3Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.BalanceType12Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.BalanceType5ChoiceCt
+VALUE enum Messages.ISO.CAMTx053x001x02.Tns.BalanceType12CodeEnum CLBD
+SET Seq.Chc.Cd
+SET Seq.CdOrPrtry
+SET Seq.Tp
+CREATE Messages.ISO.CAMTx053x001x02.Tns.CreditLine2Ct
+VALUE bool False
+SET Seq.Incl
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ActiveOrHistoricCurrencyAndAmountCt
+VALUE string SEK
+SET Ccy
+VALUE number 2500000
+SET Value
+SET Seq.Amt
+SET Seq.CdtLine
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ActiveOrHistoricCurrencyAndAmountCt
+VALUE string SEK
+SET Ccy
+VALUE number 4408320.31
+SET Value
+SET Seq.Amt
+VALUE enum Messages.ISO.CAMTx053x001x02.Tns.CreditDebitCodeEnum CRDT
+SET Seq.CdtDbtInd
+CREATE Messages.ISO.CAMTx053x001x02.Tns.DateAndDateTimeChoiceCt
+VALUE date 2018-12-17T00:00:00
+SET Seq.Chc.Dt
+SET Seq.Dt
+ADD
+CREATE Messages.ISO.CAMTx053x001x02.Tns.CashBalance3Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.BalanceType12Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.BalanceType5ChoiceCt
+VALUE enum Messages.ISO.CAMTx053x001x02.Tns.BalanceType12CodeEnum CLAV
+SET Seq.Chc.Cd
+SET Seq.CdOrPrtry
+SET Seq.Tp
+CREATE Messages.ISO.CAMTx053x001x02.Tns.CreditLine2Ct
+VALUE bool False
+SET Seq.Incl
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ActiveOrHistoricCurrencyAndAmountCt
+VALUE string SEK
+SET Ccy
+VALUE number 2500000
+SET Value
+SET Seq.Amt
+SET Seq.CdtLine
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ActiveOrHistoricCurrencyAndAmountCt
+VALUE string SEK
+SET Ccy
+VALUE number 4408320.31
+SET Value
+SET Seq.Amt
+VALUE enum Messages.ISO.CAMTx053x001x02.Tns.CreditDebitCodeEnum CRDT
+SET Seq.CdtDbtInd
+CREATE Messages.ISO.CAMTx053x001x02.Tns.DateAndDateTimeChoiceCt
+VALUE date 2018-12-17T00:00:00
+SET Seq.Chc.Dt
+SET Seq.Dt
+ADD
+CREATE Messages.ISO.CAMTx053x001x02.Tns.CashBalance3Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.BalanceType12Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.BalanceType5ChoiceCt
+VALUE enum Messages.ISO.CAMTx053x001x02.Tns.BalanceType12CodeEnum FWAV
+SET Seq.Chc.Cd
+SET Seq.CdOrPrtry
+SET Seq.Tp
+CREATE Messages.ISO.CAMTx053x001x02.Tns.CreditLine2Ct
+VALUE bool NULL
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ActiveOrHistoricCurrencyAndAmountCt
+VALUE string NULL
+EXIT OBJECT/VALUE
+VALUE number NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ActiveOrHistoricCurrencyAndAmountCt
+VALUE string SEK
+SET Ccy
+VALUE number 4408320.31
+SET Value
+SET Seq.Amt
+VALUE enum Messages.ISO.CAMTx053x001x02.Tns.CreditDebitCodeEnum CRDT
+SET Seq.CdtDbtInd
+CREATE Messages.ISO.CAMTx053x001x02.Tns.DateAndDateTimeChoiceCt
+VALUE date 2018-12-18T00:00:00
+SET Seq.Chc.Dt
+SET Seq.Dt
+ADD
+EXIT LIST
+CREATE Messages.ISO.CAMTx053x001x02.Tns.TotalTransactions2Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.NumberAndSumOfTransactions1Ct
+VALUE string 5
+SET Seq.NbOfNtries
+VALUE number 787850.00
+SET Seq.Sum
+SET Seq.TtlCdtNtries
+CREATE Messages.ISO.CAMTx053x001x02.Tns.NumberAndSumOfTransactions1Ct
+VALUE string 2
+SET Seq.NbOfNtries
+VALUE number 244901.00
+SET Seq.Sum
+SET Seq.TtlDbtNtries
+SET Seq.TxsSummry
+ENTER Seq.Ntrys
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ReportEntry2Ct
+VALUE string LBE5419-0186-0029234
+SET Seq.NtryRef
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ActiveOrHistoricCurrencyAndAmountCt
+VALUE string SEK
+SET Ccy
+VALUE number 242041.00
+SET Value
+SET Seq.Amt
+VALUE enum Messages.ISO.CAMTx053x001x02.Tns.CreditDebitCodeEnum DBIT
+SET Seq.CdtDbtInd
+VALUE enum Messages.ISO.CAMTx053x001x02.Tns.EntryStatus2CodeEnum BOOK
+SET Seq.Sts
+CREATE Messages.ISO.CAMTx053x001x02.Tns.DateAndDateTimeChoiceCt
+VALUE date 2018-12-17T00:00:00
+SET Seq.Chc.Dt
+SET Seq.BookgDt
+CREATE Messages.ISO.CAMTx053x001x02.Tns.DateAndDateTimeChoiceCt
+VALUE date 2018-12-17T00:00:00
+SET Seq.Chc.Dt
+SET Seq.ValDt
+VALUE string STOI520111188400029234
+SET Seq.AcctSvcrRef
+CREATE Messages.ISO.CAMTx053x001x02.Tns.BankTransactionCodeStructure4Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.BankTransactionCodeStructure5Ct
+VALUE string PMNT
+SET Seq.Cd
+CREATE Messages.ISO.CAMTx053x001x02.Tns.BankTransactionCodeStructure6Ct
+VALUE string ICDT
+SET Seq.Cd
+VALUE string ATXN
+SET Seq.SubFmlyCd
+SET Seq.Fmly
+SET Seq.Domn
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ProprietaryBankTransactionCodeStructure1Ct
+VALUE string TRF
+SET Seq.Cd
+VALUE string SWIFT
+SET Seq.Issr
+SET Seq.Prtry
+SET Seq.BkTxCd
+ENTER Seq.NtryDtlss
+CREATE Messages.ISO.CAMTx053x001x02.Tns.EntryDetails1Ct
+ENTER Seq.TxDtlss
+CREATE Messages.ISO.CAMTx053x001x02.Tns.EntryTransaction2Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.TransactionReferences2Ct
+VALUE string BF3970707
+SET Seq.MsgId
+VALUE string STOESI05181210113433580558000001
+SET Seq.AcctSvcrRef
+VALUE string BB5806984
+SET Seq.PmtInfId
+VALUE string TR40552142
+SET Seq.InstrId
+VALUE string EE32683251
+SET Seq.EndToEndId
+SET Seq.Refs
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AmountAndCurrencyExchange3Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AmountAndCurrencyExchangeDetails3Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ActiveOrHistoricCurrencyAndAmountCt
+VALUE string SEK
+SET Ccy
+VALUE number 25000.00
+SET Value
+SET Seq.Amt
+SET Seq.TxAmt
+ENTER Seq.PrtryAmts
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AmountAndCurrencyExchangeDetails4Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ActiveOrHistoricCurrencyAndAmountCt
+VALUE string NULL
+EXIT OBJECT/VALUE
+VALUE number NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT ITEM
+EXIT LIST
+SET Seq.AmtDtls
+CREATE Messages.ISO.CAMTx053x001x02.Tns.TransactionParty2Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.PartyIdentification32Ct
+VALUE string TEST Customer
+SET Seq.Nm
+CREATE Messages.ISO.CAMTx053x001x02.Tns.Party6ChoiceCt
+CREATE Messages.ISO.CAMTx053x001x02.Tns.PersonIdentification5Ct
+ENTER Seq.Othrs
+CREATE Messages.ISO.CAMTx053x001x02.Tns.GenericPersonIdentification1Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.PersonIdentificationSchemeName1ChoiceCt
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT ITEM
+EXIT LIST
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.PostalAddress6Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+VALUE string NULL
+EXIT OBJECT/VALUE
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+SET Seq.Dbtr
+CREATE Messages.ISO.CAMTx053x001x02.Tns.CashAccount16Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AccountIdentification4ChoiceCt
+CREATE Messages.ISO.CAMTx053x001x02.Tns.GenericAccountIdentification1Ct
+VALUE string 9814443
+SET Seq.Id
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AccountSchemeName1ChoiceCt
+VALUE string BGNR
+SET Seq.Chc.Prtry
+SET Seq.SchmeNm
+SET Seq.Chc.Othr
+SET Seq.Id
+VALUE string SEK
+SET Seq.Ccy
+SET Seq.DbtrAcct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.PartyIdentification32Ct
+VALUE string Beneficiary
+SET Seq.Nm
+CREATE Messages.ISO.CAMTx053x001x02.Tns.Party6ChoiceCt
+CREATE Messages.ISO.CAMTx053x001x02.Tns.OrganisationIdentification4Ct
+ENTER Seq.Othrs
+CREATE Messages.ISO.CAMTx053x001x02.Tns.GenericOrganisationIdentification1Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.OrganisationIdentificationSchemeName1ChoiceCt
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT ITEM
+EXIT LIST
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+SET Seq.Cdtr
+CREATE Messages.ISO.CAMTx053x001x02.Tns.PartyIdentification32Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.CashAccount16Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AccountIdentification4ChoiceCt
+CREATE Messages.ISO.CAMTx053x001x02.Tns.GenericAccountIdentification1Ct
+VALUE string 6767676
+SET Seq.Id
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AccountSchemeName1ChoiceCt
+VALUE string NULL
+EXIT OBJECT/VALUE
+VALUE string BGNR
+SET Seq.Chc.Prtry
+SET Seq.SchmeNm
+VALUE string BGC
+SET Seq.Issr
+SET Seq.Chc.Othr
+SET Seq.Id
+SET Seq.CdtrAcct
+SET Seq.RltdPties
+CREATE Messages.ISO.CAMTx053x001x02.Tns.TransactionAgents2Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.BranchAndFinancialInstitutionIdentification4Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.FinancialInstitutionIdentification7Ct
+VALUE string Skandinaviska Enskilda Banken
+SET Seq.Nm
+VALUE string NULL
+EXIT OBJECT/VALUE
+SET Seq.FinInstnId
+SET Seq.DbtrAgt
+CREATE Messages.ISO.CAMTx053x001x02.Tns.BranchAndFinancialInstitutionIdentification4Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.FinancialInstitutionIdentification7Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+SET Seq.RltdAgts
+CREATE Messages.ISO.CAMTx053x001x02.Tns.Purpose2ChoiceCt
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.RemittanceInformation5Ct
+ENTER Seq.Ustrds
+VALUE string NULL
+EXIT ITEM
+EXIT LIST
+ENTER Seq.Strds
+CREATE Messages.ISO.CAMTx053x001x02.Tns.StructuredRemittanceInformation7Ct
+ENTER Seq.RfrdDocInfs
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ReferredDocumentInformation3Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ReferredDocumentType2Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ReferredDocumentType1ChoiceCt
+VALUE enum NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT ITEM
+EXIT LIST
+CREATE Messages.ISO.CAMTx053x001x02.Tns.RemittanceAmount1Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ActiveOrHistoricCurrencyAndAmountCt
+VALUE string SEK
+SET Ccy
+VALUE number 25000.000
+SET Value
+SET Seq.RmtdAmt
+SET Seq.RfrdDocAmt
+CREATE Messages.ISO.CAMTx053x001x02.Tns.CreditorReferenceInformation2Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.CreditorReferenceType2Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.CreditorReferenceType1ChoiceCt
+VALUE enum Messages.ISO.CAMTx053x001x02.Tns.DocumentType3CodeEnum SCOR
+SET Seq.Chc.Cd
+SET Seq.CdOrPrtry
+SET Seq.Tp
+VALUE string 85858
+SET Seq.Ref_
+SET Seq.CdtrRefInf
+ADD
+EXIT LIST
+SET Seq.RmtInf
+ADD
+CREATE Messages.ISO.CAMTx053x001x02.Tns.EntryTransaction2Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.TransactionReferences2Ct
+VALUE string BF3970707
+SET Seq.MsgId
+VALUE string STOESI05181210113433580559000001
+SET Seq.AcctSvcrRef
+VALUE string BB5806985
+SET Seq.PmtInfId
+VALUE string TR40552146
+SET Seq.InstrId
+VALUE string EE32683255
+SET Seq.EndToEndId
+SET Seq.Refs
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AmountAndCurrencyExchange3Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AmountAndCurrencyExchangeDetails3Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ActiveOrHistoricCurrencyAndAmountCt
+VALUE string SEK
+SET Ccy
+VALUE number 6250.00
+SET Value
+SET Seq.Amt
+SET Seq.TxAmt
+ENTER Seq.PrtryAmts
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AmountAndCurrencyExchangeDetails4Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ActiveOrHistoricCurrencyAndAmountCt
+VALUE string NULL
+EXIT OBJECT/VALUE
+VALUE number NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT ITEM
+EXIT LIST
+SET Seq.AmtDtls
+CREATE Messages.ISO.CAMTx053x001x02.Tns.TransactionParty2Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.PartyIdentification32Ct
+VALUE string TEST Customer
+SET Seq.Nm
+CREATE Messages.ISO.CAMTx053x001x02.Tns.Party6ChoiceCt
+CREATE Messages.ISO.CAMTx053x001x02.Tns.PersonIdentification5Ct
+ENTER Seq.Othrs
+CREATE Messages.ISO.CAMTx053x001x02.Tns.GenericPersonIdentification1Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.PersonIdentificationSchemeName1ChoiceCt
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT ITEM
+EXIT LIST
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.PostalAddress6Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+VALUE string NULL
+EXIT OBJECT/VALUE
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+SET Seq.Dbtr
+CREATE Messages.ISO.CAMTx053x001x02.Tns.CashAccount16Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AccountIdentification4ChoiceCt
+CREATE Messages.ISO.CAMTx053x001x02.Tns.GenericAccountIdentification1Ct
+VALUE string 9814443
+SET Seq.Id
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AccountSchemeName1ChoiceCt
+VALUE string BGNR
+SET Seq.Chc.Prtry
+SET Seq.SchmeNm
+SET Seq.Chc.Othr
+SET Seq.Id
+VALUE string SEK
+SET Seq.Ccy
+SET Seq.DbtrAcct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.PartyIdentification32Ct
+VALUE string Beneficiary
+SET Seq.Nm
+CREATE Messages.ISO.CAMTx053x001x02.Tns.Party6ChoiceCt
+CREATE Messages.ISO.CAMTx053x001x02.Tns.OrganisationIdentification4Ct
+ENTER Seq.Othrs
+CREATE Messages.ISO.CAMTx053x001x02.Tns.GenericOrganisationIdentification1Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.OrganisationIdentificationSchemeName1ChoiceCt
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT ITEM
+EXIT LIST
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+SET Seq.Cdtr
+CREATE Messages.ISO.CAMTx053x001x02.Tns.PartyIdentification32Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.CashAccount16Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AccountIdentification4ChoiceCt
+CREATE Messages.ISO.CAMTx053x001x02.Tns.GenericAccountIdentification1Ct
+VALUE string 56565656
+SET Seq.Id
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AccountSchemeName1ChoiceCt
+VALUE string NULL
+EXIT OBJECT/VALUE
+VALUE string BGNR
+SET Seq.Chc.Prtry
+SET Seq.SchmeNm
+VALUE string BGC
+SET Seq.Issr
+SET Seq.Chc.Othr
+SET Seq.Id
+SET Seq.CdtrAcct
+SET Seq.RltdPties
+CREATE Messages.ISO.CAMTx053x001x02.Tns.TransactionAgents2Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.BranchAndFinancialInstitutionIdentification4Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.FinancialInstitutionIdentification7Ct
+VALUE string Skandinaviska Enskilda Banken
+SET Seq.Nm
+VALUE string NULL
+EXIT OBJECT/VALUE
+SET Seq.FinInstnId
+SET Seq.DbtrAgt
+CREATE Messages.ISO.CAMTx053x001x02.Tns.BranchAndFinancialInstitutionIdentification4Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.FinancialInstitutionIdentification7Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+SET Seq.RltdAgts
+CREATE Messages.ISO.CAMTx053x001x02.Tns.Purpose2ChoiceCt
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.RemittanceInformation5Ct
+ENTER Seq.Ustrds
+VALUE string NULL
+EXIT ITEM
+EXIT LIST
+ENTER Seq.Strds
+CREATE Messages.ISO.CAMTx053x001x02.Tns.StructuredRemittanceInformation7Ct
+ENTER Seq.RfrdDocInfs
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ReferredDocumentInformation3Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ReferredDocumentType2Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ReferredDocumentType1ChoiceCt
+VALUE enum Messages.ISO.CAMTx053x001x02.Tns.DocumentType5CodeEnum CINV
+SET Seq.Chc.Cd
+SET Seq.CdOrPrtry
+SET Seq.Tp
+VALUE string 333333333333
+SET Seq.Nb
+ADD
+EXIT LIST
+CREATE Messages.ISO.CAMTx053x001x02.Tns.RemittanceAmount1Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ActiveOrHistoricCurrencyAndAmountCt
+VALUE string SEK
+SET Ccy
+VALUE number 6250.000
+SET Value
+SET Seq.RmtdAmt
+SET Seq.RfrdDocAmt
+CREATE Messages.ISO.CAMTx053x001x02.Tns.CreditorReferenceInformation2Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.CreditorReferenceType2Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.CreditorReferenceType1ChoiceCt
+VALUE enum NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+ADD
+EXIT LIST
+SET Seq.RmtInf
+ADD
+CREATE Messages.ISO.CAMTx053x001x02.Tns.EntryTransaction2Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.TransactionReferences2Ct
+VALUE string BF3970707
+SET Seq.MsgId
+VALUE string STOESI05181210113433580559000002
+SET Seq.AcctSvcrRef
+VALUE string BB5806985
+SET Seq.PmtInfId
+VALUE string TR40552150
+SET Seq.InstrId
+VALUE string EE32683259
+SET Seq.EndToEndId
+SET Seq.Refs
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AmountAndCurrencyExchange3Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AmountAndCurrencyExchangeDetails3Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ActiveOrHistoricCurrencyAndAmountCt
+VALUE string SEK
+SET Ccy
+VALUE number 104773.00
+SET Value
+SET Seq.Amt
+SET Seq.TxAmt
+ENTER Seq.PrtryAmts
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AmountAndCurrencyExchangeDetails4Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ActiveOrHistoricCurrencyAndAmountCt
+VALUE string NULL
+EXIT OBJECT/VALUE
+VALUE number NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT ITEM
+EXIT LIST
+SET Seq.AmtDtls
+CREATE Messages.ISO.CAMTx053x001x02.Tns.TransactionParty2Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.PartyIdentification32Ct
+VALUE string TEST Customer
+SET Seq.Nm
+CREATE Messages.ISO.CAMTx053x001x02.Tns.Party6ChoiceCt
+CREATE Messages.ISO.CAMTx053x001x02.Tns.PersonIdentification5Ct
+ENTER Seq.Othrs
+CREATE Messages.ISO.CAMTx053x001x02.Tns.GenericPersonIdentification1Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.PersonIdentificationSchemeName1ChoiceCt
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT ITEM
+EXIT LIST
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.PostalAddress6Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+VALUE string NULL
+EXIT OBJECT/VALUE
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+SET Seq.Dbtr
+CREATE Messages.ISO.CAMTx053x001x02.Tns.CashAccount16Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AccountIdentification4ChoiceCt
+CREATE Messages.ISO.CAMTx053x001x02.Tns.GenericAccountIdentification1Ct
+VALUE string 9814443
+SET Seq.Id
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AccountSchemeName1ChoiceCt
+VALUE string BGNR
+SET Seq.Chc.Prtry
+SET Seq.SchmeNm
+SET Seq.Chc.Othr
+SET Seq.Id
+VALUE string SEK
+SET Seq.Ccy
+SET Seq.DbtrAcct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.PartyIdentification32Ct
+VALUE string Beneficiary
+SET Seq.Nm
+CREATE Messages.ISO.CAMTx053x001x02.Tns.Party6ChoiceCt
+CREATE Messages.ISO.CAMTx053x001x02.Tns.OrganisationIdentification4Ct
+ENTER Seq.Othrs
+CREATE Messages.ISO.CAMTx053x001x02.Tns.GenericOrganisationIdentification1Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.OrganisationIdentificationSchemeName1ChoiceCt
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT ITEM
+EXIT LIST
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+SET Seq.Cdtr
+CREATE Messages.ISO.CAMTx053x001x02.Tns.PartyIdentification32Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.CashAccount16Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AccountIdentification4ChoiceCt
+CREATE Messages.ISO.CAMTx053x001x02.Tns.GenericAccountIdentification1Ct
+VALUE string 56565656
+SET Seq.Id
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AccountSchemeName1ChoiceCt
+VALUE string NULL
+EXIT OBJECT/VALUE
+VALUE string BGNR
+SET Seq.Chc.Prtry
+SET Seq.SchmeNm
+VALUE string BGC
+SET Seq.Issr
+SET Seq.Chc.Othr
+SET Seq.Id
+SET Seq.CdtrAcct
+SET Seq.RltdPties
+CREATE Messages.ISO.CAMTx053x001x02.Tns.TransactionAgents2Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.BranchAndFinancialInstitutionIdentification4Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.FinancialInstitutionIdentification7Ct
+VALUE string Skandinaviska Enskilda Banken
+SET Seq.Nm
+VALUE string NULL
+EXIT OBJECT/VALUE
+SET Seq.FinInstnId
+SET Seq.DbtrAgt
+CREATE Messages.ISO.CAMTx053x001x02.Tns.BranchAndFinancialInstitutionIdentification4Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.FinancialInstitutionIdentification7Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+SET Seq.RltdAgts
+CREATE Messages.ISO.CAMTx053x001x02.Tns.Purpose2ChoiceCt
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.RemittanceInformation5Ct
+ENTER Seq.Ustrds
+VALUE string NULL
+EXIT ITEM
+EXIT LIST
+ENTER Seq.Strds
+CREATE Messages.ISO.CAMTx053x001x02.Tns.StructuredRemittanceInformation7Ct
+ENTER Seq.RfrdDocInfs
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ReferredDocumentInformation3Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ReferredDocumentType2Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ReferredDocumentType1ChoiceCt
+VALUE enum NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT ITEM
+EXIT LIST
+CREATE Messages.ISO.CAMTx053x001x02.Tns.RemittanceAmount1Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ActiveOrHistoricCurrencyAndAmountCt
+VALUE string SEK
+SET Ccy
+VALUE number 104773.000
+SET Value
+SET Seq.RmtdAmt
+SET Seq.RfrdDocAmt
+CREATE Messages.ISO.CAMTx053x001x02.Tns.CreditorReferenceInformation2Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.CreditorReferenceType2Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.CreditorReferenceType1ChoiceCt
+VALUE enum Messages.ISO.CAMTx053x001x02.Tns.DocumentType3CodeEnum SCOR
+SET Seq.Chc.Cd
+SET Seq.CdOrPrtry
+SET Seq.Tp
+VALUE string 2828282828
+SET Seq.Ref_
+SET Seq.CdtrRefInf
+ADD
+EXIT LIST
+SET Seq.RmtInf
+ADD
+CREATE Messages.ISO.CAMTx053x001x02.Tns.EntryTransaction2Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.TransactionReferences2Ct
+VALUE string BF3970707
+SET Seq.MsgId
+VALUE string STOESI05181210113433580559000003
+SET Seq.AcctSvcrRef
+VALUE string BB5806985
+SET Seq.PmtInfId
+VALUE string TR40552151
+SET Seq.InstrId
+VALUE string EE32683260
+SET Seq.EndToEndId
+SET Seq.Refs
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AmountAndCurrencyExchange3Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AmountAndCurrencyExchangeDetails3Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ActiveOrHistoricCurrencyAndAmountCt
+VALUE string SEK
+SET Ccy
+VALUE number 27500.00
+SET Value
+SET Seq.Amt
+SET Seq.TxAmt
+ENTER Seq.PrtryAmts
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AmountAndCurrencyExchangeDetails4Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ActiveOrHistoricCurrencyAndAmountCt
+VALUE string NULL
+EXIT OBJECT/VALUE
+VALUE number NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT ITEM
+EXIT LIST
+SET Seq.AmtDtls
+CREATE Messages.ISO.CAMTx053x001x02.Tns.TransactionParty2Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.PartyIdentification32Ct
+VALUE string TEST Customer
+SET Seq.Nm
+CREATE Messages.ISO.CAMTx053x001x02.Tns.Party6ChoiceCt
+CREATE Messages.ISO.CAMTx053x001x02.Tns.PersonIdentification5Ct
+ENTER Seq.Othrs
+CREATE Messages.ISO.CAMTx053x001x02.Tns.GenericPersonIdentification1Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.PersonIdentificationSchemeName1ChoiceCt
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT ITEM
+EXIT LIST
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.PostalAddress6Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+VALUE string NULL
+EXIT OBJECT/VALUE
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+SET Seq.Dbtr
+CREATE Messages.ISO.CAMTx053x001x02.Tns.CashAccount16Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AccountIdentification4ChoiceCt
+CREATE Messages.ISO.CAMTx053x001x02.Tns.GenericAccountIdentification1Ct
+VALUE string 9814443
+SET Seq.Id
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AccountSchemeName1ChoiceCt
+VALUE string BGNR
+SET Seq.Chc.Prtry
+SET Seq.SchmeNm
+SET Seq.Chc.Othr
+SET Seq.Id
+VALUE string SEK
+SET Seq.Ccy
+SET Seq.DbtrAcct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.PartyIdentification32Ct
+VALUE string Beneficiary
+SET Seq.Nm
+CREATE Messages.ISO.CAMTx053x001x02.Tns.Party6ChoiceCt
+CREATE Messages.ISO.CAMTx053x001x02.Tns.OrganisationIdentification4Ct
+ENTER Seq.Othrs
+CREATE Messages.ISO.CAMTx053x001x02.Tns.GenericOrganisationIdentification1Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.OrganisationIdentificationSchemeName1ChoiceCt
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT ITEM
+EXIT LIST
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+SET Seq.Cdtr
+CREATE Messages.ISO.CAMTx053x001x02.Tns.PartyIdentification32Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.CashAccount16Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AccountIdentification4ChoiceCt
+CREATE Messages.ISO.CAMTx053x001x02.Tns.GenericAccountIdentification1Ct
+VALUE string 51515151
+SET Seq.Id
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AccountSchemeName1ChoiceCt
+VALUE string NULL
+EXIT OBJECT/VALUE
+VALUE string BGNR
+SET Seq.Chc.Prtry
+SET Seq.SchmeNm
+VALUE string BGC
+SET Seq.Issr
+SET Seq.Chc.Othr
+SET Seq.Id
+SET Seq.CdtrAcct
+SET Seq.RltdPties
+CREATE Messages.ISO.CAMTx053x001x02.Tns.TransactionAgents2Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.BranchAndFinancialInstitutionIdentification4Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.FinancialInstitutionIdentification7Ct
+VALUE string Skandinaviska Enskilda Banken
+SET Seq.Nm
+VALUE string NULL
+EXIT OBJECT/VALUE
+SET Seq.FinInstnId
+SET Seq.DbtrAgt
+CREATE Messages.ISO.CAMTx053x001x02.Tns.BranchAndFinancialInstitutionIdentification4Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.FinancialInstitutionIdentification7Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+SET Seq.RltdAgts
+CREATE Messages.ISO.CAMTx053x001x02.Tns.Purpose2ChoiceCt
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.RemittanceInformation5Ct
+ENTER Seq.Ustrds
+VALUE string NULL
+EXIT ITEM
+EXIT LIST
+ENTER Seq.Strds
+CREATE Messages.ISO.CAMTx053x001x02.Tns.StructuredRemittanceInformation7Ct
+ENTER Seq.RfrdDocInfs
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ReferredDocumentInformation3Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ReferredDocumentType2Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ReferredDocumentType1ChoiceCt
+VALUE enum Messages.ISO.CAMTx053x001x02.Tns.DocumentType5CodeEnum CINV
+SET Seq.Chc.Cd
+SET Seq.CdOrPrtry
+SET Seq.Tp
+VALUE string 111111
+SET Seq.Nb
+ADD
+EXIT LIST
+CREATE Messages.ISO.CAMTx053x001x02.Tns.RemittanceAmount1Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ActiveOrHistoricCurrencyAndAmountCt
+VALUE string SEK
+SET Ccy
+VALUE number 27500.000
+SET Value
+SET Seq.RmtdAmt
+SET Seq.RfrdDocAmt
+CREATE Messages.ISO.CAMTx053x001x02.Tns.CreditorReferenceInformation2Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.CreditorReferenceType2Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.CreditorReferenceType1ChoiceCt
+VALUE enum NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+ADD
+EXIT LIST
+SET Seq.RmtInf
+ADD
+CREATE Messages.ISO.CAMTx053x001x02.Tns.EntryTransaction2Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.TransactionReferences2Ct
+VALUE string BF3970707
+SET Seq.MsgId
+VALUE string STOESI05181210113433580561000001
+SET Seq.AcctSvcrRef
+VALUE string BB5806987
+SET Seq.PmtInfId
+VALUE string TR40552152
+SET Seq.InstrId
+VALUE string EE32683261
+SET Seq.EndToEndId
+SET Seq.Refs
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AmountAndCurrencyExchange3Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AmountAndCurrencyExchangeDetails3Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ActiveOrHistoricCurrencyAndAmountCt
+VALUE string SEK
+SET Ccy
+VALUE number 25000.00
+SET Value
+SET Seq.Amt
+SET Seq.TxAmt
+ENTER Seq.PrtryAmts
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AmountAndCurrencyExchangeDetails4Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ActiveOrHistoricCurrencyAndAmountCt
+VALUE string NULL
+EXIT OBJECT/VALUE
+VALUE number NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT ITEM
+EXIT LIST
+SET Seq.AmtDtls
+CREATE Messages.ISO.CAMTx053x001x02.Tns.TransactionParty2Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.PartyIdentification32Ct
+VALUE string TEST Customer
+SET Seq.Nm
+CREATE Messages.ISO.CAMTx053x001x02.Tns.Party6ChoiceCt
+CREATE Messages.ISO.CAMTx053x001x02.Tns.PersonIdentification5Ct
+ENTER Seq.Othrs
+CREATE Messages.ISO.CAMTx053x001x02.Tns.GenericPersonIdentification1Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.PersonIdentificationSchemeName1ChoiceCt
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT ITEM
+EXIT LIST
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.PostalAddress6Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+VALUE string NULL
+EXIT OBJECT/VALUE
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+SET Seq.Dbtr
+CREATE Messages.ISO.CAMTx053x001x02.Tns.CashAccount16Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AccountIdentification4ChoiceCt
+CREATE Messages.ISO.CAMTx053x001x02.Tns.GenericAccountIdentification1Ct
+VALUE string 9814443
+SET Seq.Id
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AccountSchemeName1ChoiceCt
+VALUE string BGNR
+SET Seq.Chc.Prtry
+SET Seq.SchmeNm
+SET Seq.Chc.Othr
+SET Seq.Id
+VALUE string SEK
+SET Seq.Ccy
+SET Seq.DbtrAcct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.PartyIdentification32Ct
+VALUE string Beneficiary
+SET Seq.Nm
+CREATE Messages.ISO.CAMTx053x001x02.Tns.Party6ChoiceCt
+CREATE Messages.ISO.CAMTx053x001x02.Tns.OrganisationIdentification4Ct
+ENTER Seq.Othrs
+CREATE Messages.ISO.CAMTx053x001x02.Tns.GenericOrganisationIdentification1Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.OrganisationIdentificationSchemeName1ChoiceCt
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT ITEM
+EXIT LIST
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+SET Seq.Cdtr
+CREATE Messages.ISO.CAMTx053x001x02.Tns.PartyIdentification32Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.CashAccount16Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AccountIdentification4ChoiceCt
+CREATE Messages.ISO.CAMTx053x001x02.Tns.GenericAccountIdentification1Ct
+VALUE string 57575757
+SET Seq.Id
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AccountSchemeName1ChoiceCt
+VALUE string NULL
+EXIT OBJECT/VALUE
+VALUE string BGNR
+SET Seq.Chc.Prtry
+SET Seq.SchmeNm
+VALUE string BGC
+SET Seq.Issr
+SET Seq.Chc.Othr
+SET Seq.Id
+SET Seq.CdtrAcct
+SET Seq.RltdPties
+CREATE Messages.ISO.CAMTx053x001x02.Tns.TransactionAgents2Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.BranchAndFinancialInstitutionIdentification4Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.FinancialInstitutionIdentification7Ct
+VALUE string Skandinaviska Enskilda Banken
+SET Seq.Nm
+VALUE string NULL
+EXIT OBJECT/VALUE
+SET Seq.FinInstnId
+SET Seq.DbtrAgt
+CREATE Messages.ISO.CAMTx053x001x02.Tns.BranchAndFinancialInstitutionIdentification4Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.FinancialInstitutionIdentification7Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+SET Seq.RltdAgts
+CREATE Messages.ISO.CAMTx053x001x02.Tns.Purpose2ChoiceCt
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.RemittanceInformation5Ct
+ENTER Seq.Ustrds
+VALUE string NULL
+EXIT ITEM
+EXIT LIST
+ENTER Seq.Strds
+CREATE Messages.ISO.CAMTx053x001x02.Tns.StructuredRemittanceInformation7Ct
+ENTER Seq.RfrdDocInfs
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ReferredDocumentInformation3Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ReferredDocumentType2Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ReferredDocumentType1ChoiceCt
+VALUE enum NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT ITEM
+EXIT LIST
+CREATE Messages.ISO.CAMTx053x001x02.Tns.RemittanceAmount1Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ActiveOrHistoricCurrencyAndAmountCt
+VALUE string SEK
+SET Ccy
+VALUE number 25000.000
+SET Value
+SET Seq.RmtdAmt
+SET Seq.RfrdDocAmt
+CREATE Messages.ISO.CAMTx053x001x02.Tns.CreditorReferenceInformation2Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.CreditorReferenceType2Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.CreditorReferenceType1ChoiceCt
+VALUE enum Messages.ISO.CAMTx053x001x02.Tns.DocumentType3CodeEnum SCOR
+SET Seq.Chc.Cd
+SET Seq.CdOrPrtry
+SET Seq.Tp
+VALUE string 88888
+SET Seq.Ref_
+SET Seq.CdtrRefInf
+ADD
+EXIT LIST
+SET Seq.RmtInf
+ADD
+CREATE Messages.ISO.CAMTx053x001x02.Tns.EntryTransaction2Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.TransactionReferences2Ct
+VALUE string BF3983036
+SET Seq.MsgId
+VALUE string STOESI05181211145317651028000001
+SET Seq.AcctSvcrRef
+VALUE string BB5829868
+SET Seq.PmtInfId
+VALUE string TR40720374
+SET Seq.InstrId
+VALUE string EE32821665
+SET Seq.EndToEndId
+SET Seq.Refs
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AmountAndCurrencyExchange3Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AmountAndCurrencyExchangeDetails3Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ActiveOrHistoricCurrencyAndAmountCt
+VALUE string SEK
+SET Ccy
+VALUE number 201.00
+SET Value
+SET Seq.Amt
+SET Seq.TxAmt
+ENTER Seq.PrtryAmts
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AmountAndCurrencyExchangeDetails4Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ActiveOrHistoricCurrencyAndAmountCt
+VALUE string NULL
+EXIT OBJECT/VALUE
+VALUE number NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT ITEM
+EXIT LIST
+SET Seq.AmtDtls
+CREATE Messages.ISO.CAMTx053x001x02.Tns.TransactionParty2Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.PartyIdentification32Ct
+VALUE string TEST Customer
+SET Seq.Nm
+CREATE Messages.ISO.CAMTx053x001x02.Tns.Party6ChoiceCt
+CREATE Messages.ISO.CAMTx053x001x02.Tns.PersonIdentification5Ct
+ENTER Seq.Othrs
+CREATE Messages.ISO.CAMTx053x001x02.Tns.GenericPersonIdentification1Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.PersonIdentificationSchemeName1ChoiceCt
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT ITEM
+EXIT LIST
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.PostalAddress6Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+VALUE string NULL
+EXIT OBJECT/VALUE
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+SET Seq.Dbtr
+CREATE Messages.ISO.CAMTx053x001x02.Tns.CashAccount16Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AccountIdentification4ChoiceCt
+CREATE Messages.ISO.CAMTx053x001x02.Tns.GenericAccountIdentification1Ct
+VALUE string 9814443
+SET Seq.Id
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AccountSchemeName1ChoiceCt
+VALUE string BGNR
+SET Seq.Chc.Prtry
+SET Seq.SchmeNm
+SET Seq.Chc.Othr
+SET Seq.Id
+VALUE string SEK
+SET Seq.Ccy
+SET Seq.DbtrAcct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.PartyIdentification32Ct
+VALUE string Beneficiary
+SET Seq.Nm
+CREATE Messages.ISO.CAMTx053x001x02.Tns.Party6ChoiceCt
+CREATE Messages.ISO.CAMTx053x001x02.Tns.OrganisationIdentification4Ct
+ENTER Seq.Othrs
+CREATE Messages.ISO.CAMTx053x001x02.Tns.GenericOrganisationIdentification1Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.OrganisationIdentificationSchemeName1ChoiceCt
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT ITEM
+EXIT LIST
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+SET Seq.Cdtr
+CREATE Messages.ISO.CAMTx053x001x02.Tns.PartyIdentification32Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.CashAccount16Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AccountIdentification4ChoiceCt
+CREATE Messages.ISO.CAMTx053x001x02.Tns.GenericAccountIdentification1Ct
+VALUE string 53535353
+SET Seq.Id
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AccountSchemeName1ChoiceCt
+VALUE string NULL
+EXIT OBJECT/VALUE
+VALUE string BGNR
+SET Seq.Chc.Prtry
+SET Seq.SchmeNm
+VALUE string BGC
+SET Seq.Issr
+SET Seq.Chc.Othr
+SET Seq.Id
+SET Seq.CdtrAcct
+SET Seq.RltdPties
+CREATE Messages.ISO.CAMTx053x001x02.Tns.TransactionAgents2Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.BranchAndFinancialInstitutionIdentification4Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.FinancialInstitutionIdentification7Ct
+VALUE string Skandinaviska Enskilda Banken
+SET Seq.Nm
+VALUE string NULL
+EXIT OBJECT/VALUE
+SET Seq.FinInstnId
+SET Seq.DbtrAgt
+CREATE Messages.ISO.CAMTx053x001x02.Tns.BranchAndFinancialInstitutionIdentification4Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.FinancialInstitutionIdentification7Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+SET Seq.RltdAgts
+CREATE Messages.ISO.CAMTx053x001x02.Tns.Purpose2ChoiceCt
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.RemittanceInformation5Ct
+ENTER Seq.Ustrds
+VALUE string NULL
+EXIT ITEM
+EXIT LIST
+ENTER Seq.Strds
+CREATE Messages.ISO.CAMTx053x001x02.Tns.StructuredRemittanceInformation7Ct
+ENTER Seq.RfrdDocInfs
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ReferredDocumentInformation3Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ReferredDocumentType2Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ReferredDocumentType1ChoiceCt
+VALUE enum NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT ITEM
+EXIT LIST
+CREATE Messages.ISO.CAMTx053x001x02.Tns.RemittanceAmount1Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ActiveOrHistoricCurrencyAndAmountCt
+VALUE string SEK
+SET Ccy
+VALUE number 201.000
+SET Value
+SET Seq.RmtdAmt
+SET Seq.RfrdDocAmt
+CREATE Messages.ISO.CAMTx053x001x02.Tns.CreditorReferenceInformation2Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.CreditorReferenceType2Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.CreditorReferenceType1ChoiceCt
+VALUE enum Messages.ISO.CAMTx053x001x02.Tns.DocumentType3CodeEnum SCOR
+SET Seq.Chc.Cd
+SET Seq.CdOrPrtry
+SET Seq.Tp
+VALUE string 515151515151
+SET Seq.Ref_
+SET Seq.CdtrRefInf
+ADD
+EXIT LIST
+SET Seq.RmtInf
+ADD
+CREATE Messages.ISO.CAMTx053x001x02.Tns.EntryTransaction2Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.TransactionReferences2Ct
+VALUE string BF3983036
+SET Seq.MsgId
+VALUE string STOESI05181211145317651028000002
+SET Seq.AcctSvcrRef
+VALUE string BB5829868
+SET Seq.PmtInfId
+VALUE string TR40720375
+SET Seq.InstrId
+VALUE string EE32821666
+SET Seq.EndToEndId
+SET Seq.Refs
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AmountAndCurrencyExchange3Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AmountAndCurrencyExchangeDetails3Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ActiveOrHistoricCurrencyAndAmountCt
+VALUE string SEK
+SET Ccy
+VALUE number 602.00
+SET Value
+SET Seq.Amt
+SET Seq.TxAmt
+ENTER Seq.PrtryAmts
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AmountAndCurrencyExchangeDetails4Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ActiveOrHistoricCurrencyAndAmountCt
+VALUE string NULL
+EXIT OBJECT/VALUE
+VALUE number NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT ITEM
+EXIT LIST
+SET Seq.AmtDtls
+CREATE Messages.ISO.CAMTx053x001x02.Tns.TransactionParty2Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.PartyIdentification32Ct
+VALUE string TEST Customer
+SET Seq.Nm
+CREATE Messages.ISO.CAMTx053x001x02.Tns.Party6ChoiceCt
+CREATE Messages.ISO.CAMTx053x001x02.Tns.PersonIdentification5Ct
+ENTER Seq.Othrs
+CREATE Messages.ISO.CAMTx053x001x02.Tns.GenericPersonIdentification1Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.PersonIdentificationSchemeName1ChoiceCt
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT ITEM
+EXIT LIST
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.PostalAddress6Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+VALUE string NULL
+EXIT OBJECT/VALUE
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+SET Seq.Dbtr
+CREATE Messages.ISO.CAMTx053x001x02.Tns.CashAccount16Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AccountIdentification4ChoiceCt
+CREATE Messages.ISO.CAMTx053x001x02.Tns.GenericAccountIdentification1Ct
+VALUE string 9814443
+SET Seq.Id
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AccountSchemeName1ChoiceCt
+VALUE string BGNR
+SET Seq.Chc.Prtry
+SET Seq.SchmeNm
+SET Seq.Chc.Othr
+SET Seq.Id
+VALUE string SEK
+SET Seq.Ccy
+SET Seq.DbtrAcct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.PartyIdentification32Ct
+VALUE string Beneficiary
+SET Seq.Nm
+CREATE Messages.ISO.CAMTx053x001x02.Tns.Party6ChoiceCt
+CREATE Messages.ISO.CAMTx053x001x02.Tns.OrganisationIdentification4Ct
+ENTER Seq.Othrs
+CREATE Messages.ISO.CAMTx053x001x02.Tns.GenericOrganisationIdentification1Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.OrganisationIdentificationSchemeName1ChoiceCt
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT ITEM
+EXIT LIST
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+SET Seq.Cdtr
+CREATE Messages.ISO.CAMTx053x001x02.Tns.PartyIdentification32Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.CashAccount16Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AccountIdentification4ChoiceCt
+CREATE Messages.ISO.CAMTx053x001x02.Tns.GenericAccountIdentification1Ct
+VALUE string 53535353
+SET Seq.Id
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AccountSchemeName1ChoiceCt
+VALUE string NULL
+EXIT OBJECT/VALUE
+VALUE string BGNR
+SET Seq.Chc.Prtry
+SET Seq.SchmeNm
+VALUE string BGC
+SET Seq.Issr
+SET Seq.Chc.Othr
+SET Seq.Id
+SET Seq.CdtrAcct
+SET Seq.RltdPties
+CREATE Messages.ISO.CAMTx053x001x02.Tns.TransactionAgents2Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.BranchAndFinancialInstitutionIdentification4Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.FinancialInstitutionIdentification7Ct
+VALUE string Skandinaviska Enskilda Banken
+SET Seq.Nm
+VALUE string NULL
+EXIT OBJECT/VALUE
+SET Seq.FinInstnId
+SET Seq.DbtrAgt
+CREATE Messages.ISO.CAMTx053x001x02.Tns.BranchAndFinancialInstitutionIdentification4Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.FinancialInstitutionIdentification7Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+SET Seq.RltdAgts
+CREATE Messages.ISO.CAMTx053x001x02.Tns.Purpose2ChoiceCt
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.RemittanceInformation5Ct
+ENTER Seq.Ustrds
+VALUE string NULL
+EXIT ITEM
+EXIT LIST
+ENTER Seq.Strds
+CREATE Messages.ISO.CAMTx053x001x02.Tns.StructuredRemittanceInformation7Ct
+ENTER Seq.RfrdDocInfs
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ReferredDocumentInformation3Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ReferredDocumentType2Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ReferredDocumentType1ChoiceCt
+VALUE enum NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT ITEM
+EXIT LIST
+CREATE Messages.ISO.CAMTx053x001x02.Tns.RemittanceAmount1Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ActiveOrHistoricCurrencyAndAmountCt
+VALUE string SEK
+SET Ccy
+VALUE number 602.000
+SET Value
+SET Seq.RmtdAmt
+SET Seq.RfrdDocAmt
+CREATE Messages.ISO.CAMTx053x001x02.Tns.CreditorReferenceInformation2Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.CreditorReferenceType2Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.CreditorReferenceType1ChoiceCt
+VALUE enum Messages.ISO.CAMTx053x001x02.Tns.DocumentType3CodeEnum SCOR
+SET Seq.Chc.Cd
+SET Seq.CdOrPrtry
+SET Seq.Tp
+VALUE string 515151515151
+SET Seq.Ref_
+SET Seq.CdtrRefInf
+ADD
+EXIT LIST
+SET Seq.RmtInf
+ADD
+CREATE Messages.ISO.CAMTx053x001x02.Tns.EntryTransaction2Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.TransactionReferences2Ct
+VALUE string BF3983036
+SET Seq.MsgId
+VALUE string STOESI05181211145317651028000003
+SET Seq.AcctSvcrRef
+VALUE string BB5829868
+SET Seq.PmtInfId
+VALUE string TR40720376
+SET Seq.InstrId
+VALUE string EE32821667
+SET Seq.EndToEndId
+SET Seq.Refs
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AmountAndCurrencyExchange3Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AmountAndCurrencyExchangeDetails3Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ActiveOrHistoricCurrencyAndAmountCt
+VALUE string SEK
+SET Ccy
+VALUE number 6988.00
+SET Value
+SET Seq.Amt
+SET Seq.TxAmt
+ENTER Seq.PrtryAmts
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AmountAndCurrencyExchangeDetails4Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ActiveOrHistoricCurrencyAndAmountCt
+VALUE string NULL
+EXIT OBJECT/VALUE
+VALUE number NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT ITEM
+EXIT LIST
+SET Seq.AmtDtls
+CREATE Messages.ISO.CAMTx053x001x02.Tns.TransactionParty2Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.PartyIdentification32Ct
+VALUE string Test Customer
+SET Seq.Nm
+CREATE Messages.ISO.CAMTx053x001x02.Tns.Party6ChoiceCt
+CREATE Messages.ISO.CAMTx053x001x02.Tns.PersonIdentification5Ct
+ENTER Seq.Othrs
+CREATE Messages.ISO.CAMTx053x001x02.Tns.GenericPersonIdentification1Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.PersonIdentificationSchemeName1ChoiceCt
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT ITEM
+EXIT LIST
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.PostalAddress6Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+VALUE string NULL
+EXIT OBJECT/VALUE
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+SET Seq.Dbtr
+CREATE Messages.ISO.CAMTx053x001x02.Tns.CashAccount16Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AccountIdentification4ChoiceCt
+CREATE Messages.ISO.CAMTx053x001x02.Tns.GenericAccountIdentification1Ct
+VALUE string 9814443
+SET Seq.Id
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AccountSchemeName1ChoiceCt
+VALUE string BGNR
+SET Seq.Chc.Prtry
+SET Seq.SchmeNm
+SET Seq.Chc.Othr
+SET Seq.Id
+VALUE string SEK
+SET Seq.Ccy
+SET Seq.DbtrAcct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.PartyIdentification32Ct
+VALUE string Beneficiary
+SET Seq.Nm
+CREATE Messages.ISO.CAMTx053x001x02.Tns.Party6ChoiceCt
+CREATE Messages.ISO.CAMTx053x001x02.Tns.OrganisationIdentification4Ct
+ENTER Seq.Othrs
+CREATE Messages.ISO.CAMTx053x001x02.Tns.GenericOrganisationIdentification1Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.OrganisationIdentificationSchemeName1ChoiceCt
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT ITEM
+EXIT LIST
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+SET Seq.Cdtr
+CREATE Messages.ISO.CAMTx053x001x02.Tns.PartyIdentification32Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.CashAccount16Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AccountIdentification4ChoiceCt
+CREATE Messages.ISO.CAMTx053x001x02.Tns.GenericAccountIdentification1Ct
+VALUE string 55555555
+SET Seq.Id
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AccountSchemeName1ChoiceCt
+VALUE string NULL
+EXIT OBJECT/VALUE
+VALUE string BGNR
+SET Seq.Chc.Prtry
+SET Seq.SchmeNm
+VALUE string BGC
+SET Seq.Issr
+SET Seq.Chc.Othr
+SET Seq.Id
+SET Seq.CdtrAcct
+SET Seq.RltdPties
+CREATE Messages.ISO.CAMTx053x001x02.Tns.TransactionAgents2Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.BranchAndFinancialInstitutionIdentification4Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.FinancialInstitutionIdentification7Ct
+VALUE string Skandinaviska Enskilda Banken
+SET Seq.Nm
+VALUE string NULL
+EXIT OBJECT/VALUE
+SET Seq.FinInstnId
+SET Seq.DbtrAgt
+CREATE Messages.ISO.CAMTx053x001x02.Tns.BranchAndFinancialInstitutionIdentification4Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.FinancialInstitutionIdentification7Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+SET Seq.RltdAgts
+CREATE Messages.ISO.CAMTx053x001x02.Tns.Purpose2ChoiceCt
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.RemittanceInformation5Ct
+ENTER Seq.Ustrds
+VALUE string NULL
+EXIT ITEM
+EXIT LIST
+ENTER Seq.Strds
+CREATE Messages.ISO.CAMTx053x001x02.Tns.StructuredRemittanceInformation7Ct
+ENTER Seq.RfrdDocInfs
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ReferredDocumentInformation3Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ReferredDocumentType2Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ReferredDocumentType1ChoiceCt
+VALUE enum NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT ITEM
+EXIT LIST
+CREATE Messages.ISO.CAMTx053x001x02.Tns.RemittanceAmount1Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ActiveOrHistoricCurrencyAndAmountCt
+VALUE string SEK
+SET Ccy
+VALUE number 6988.000
+SET Value
+SET Seq.RmtdAmt
+SET Seq.RfrdDocAmt
+CREATE Messages.ISO.CAMTx053x001x02.Tns.CreditorReferenceInformation2Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.CreditorReferenceType2Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.CreditorReferenceType1ChoiceCt
+VALUE enum Messages.ISO.CAMTx053x001x02.Tns.DocumentType3CodeEnum SCOR
+SET Seq.Chc.Cd
+SET Seq.CdOrPrtry
+SET Seq.Tp
+VALUE string 555555555555
+SET Seq.Ref_
+SET Seq.CdtrRefInf
+ADD
+EXIT LIST
+SET Seq.RmtInf
+ADD
+CREATE Messages.ISO.CAMTx053x001x02.Tns.EntryTransaction2Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.TransactionReferences2Ct
+VALUE string BF3983036
+SET Seq.MsgId
+VALUE string STOESI05181211145317651028000004
+SET Seq.AcctSvcrRef
+VALUE string BB5829868
+SET Seq.PmtInfId
+VALUE string TR40720377
+SET Seq.InstrId
+VALUE string EE32821668
+SET Seq.EndToEndId
+SET Seq.Refs
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AmountAndCurrencyExchange3Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AmountAndCurrencyExchangeDetails3Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ActiveOrHistoricCurrencyAndAmountCt
+VALUE string SEK
+SET Ccy
+VALUE number 2591.00
+SET Value
+SET Seq.Amt
+SET Seq.TxAmt
+ENTER Seq.PrtryAmts
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AmountAndCurrencyExchangeDetails4Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ActiveOrHistoricCurrencyAndAmountCt
+VALUE string NULL
+EXIT OBJECT/VALUE
+VALUE number NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT ITEM
+EXIT LIST
+SET Seq.AmtDtls
+CREATE Messages.ISO.CAMTx053x001x02.Tns.TransactionParty2Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.PartyIdentification32Ct
+VALUE string TEST Customer
+SET Seq.Nm
+CREATE Messages.ISO.CAMTx053x001x02.Tns.Party6ChoiceCt
+CREATE Messages.ISO.CAMTx053x001x02.Tns.PersonIdentification5Ct
+ENTER Seq.Othrs
+CREATE Messages.ISO.CAMTx053x001x02.Tns.GenericPersonIdentification1Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.PersonIdentificationSchemeName1ChoiceCt
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT ITEM
+EXIT LIST
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.PostalAddress6Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+VALUE string NULL
+EXIT OBJECT/VALUE
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+SET Seq.Dbtr
+CREATE Messages.ISO.CAMTx053x001x02.Tns.CashAccount16Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AccountIdentification4ChoiceCt
+CREATE Messages.ISO.CAMTx053x001x02.Tns.GenericAccountIdentification1Ct
+VALUE string 9814443
+SET Seq.Id
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AccountSchemeName1ChoiceCt
+VALUE string BGNR
+SET Seq.Chc.Prtry
+SET Seq.SchmeNm
+SET Seq.Chc.Othr
+SET Seq.Id
+VALUE string SEK
+SET Seq.Ccy
+SET Seq.DbtrAcct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.PartyIdentification32Ct
+VALUE string Beneficiary
+SET Seq.Nm
+CREATE Messages.ISO.CAMTx053x001x02.Tns.Party6ChoiceCt
+CREATE Messages.ISO.CAMTx053x001x02.Tns.OrganisationIdentification4Ct
+ENTER Seq.Othrs
+CREATE Messages.ISO.CAMTx053x001x02.Tns.GenericOrganisationIdentification1Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.OrganisationIdentificationSchemeName1ChoiceCt
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT ITEM
+EXIT LIST
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+SET Seq.Cdtr
+CREATE Messages.ISO.CAMTx053x001x02.Tns.PartyIdentification32Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.CashAccount16Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AccountIdentification4ChoiceCt
+CREATE Messages.ISO.CAMTx053x001x02.Tns.GenericAccountIdentification1Ct
+VALUE string 53535353
+SET Seq.Id
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AccountSchemeName1ChoiceCt
+VALUE string NULL
+EXIT OBJECT/VALUE
+VALUE string BGNR
+SET Seq.Chc.Prtry
+SET Seq.SchmeNm
+VALUE string BGC
+SET Seq.Issr
+SET Seq.Chc.Othr
+SET Seq.Id
+SET Seq.CdtrAcct
+SET Seq.RltdPties
+CREATE Messages.ISO.CAMTx053x001x02.Tns.TransactionAgents2Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.BranchAndFinancialInstitutionIdentification4Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.FinancialInstitutionIdentification7Ct
+VALUE string Skandinaviska Enskilda Banken
+SET Seq.Nm
+VALUE string NULL
+EXIT OBJECT/VALUE
+SET Seq.FinInstnId
+SET Seq.DbtrAgt
+CREATE Messages.ISO.CAMTx053x001x02.Tns.BranchAndFinancialInstitutionIdentification4Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.FinancialInstitutionIdentification7Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+SET Seq.RltdAgts
+CREATE Messages.ISO.CAMTx053x001x02.Tns.Purpose2ChoiceCt
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.RemittanceInformation5Ct
+ENTER Seq.Ustrds
+VALUE string NULL
+EXIT ITEM
+EXIT LIST
+ENTER Seq.Strds
+CREATE Messages.ISO.CAMTx053x001x02.Tns.StructuredRemittanceInformation7Ct
+ENTER Seq.RfrdDocInfs
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ReferredDocumentInformation3Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ReferredDocumentType2Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ReferredDocumentType1ChoiceCt
+VALUE enum NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT ITEM
+EXIT LIST
+CREATE Messages.ISO.CAMTx053x001x02.Tns.RemittanceAmount1Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ActiveOrHistoricCurrencyAndAmountCt
+VALUE string SEK
+SET Ccy
+VALUE number 2591.000
+SET Value
+SET Seq.RmtdAmt
+SET Seq.RfrdDocAmt
+CREATE Messages.ISO.CAMTx053x001x02.Tns.CreditorReferenceInformation2Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.CreditorReferenceType2Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.CreditorReferenceType1ChoiceCt
+VALUE enum Messages.ISO.CAMTx053x001x02.Tns.DocumentType3CodeEnum SCOR
+SET Seq.Chc.Cd
+SET Seq.CdOrPrtry
+SET Seq.Tp
+VALUE string 515151515151
+SET Seq.Ref_
+SET Seq.CdtrRefInf
+ADD
+EXIT LIST
+SET Seq.RmtInf
+ADD
+CREATE Messages.ISO.CAMTx053x001x02.Tns.EntryTransaction2Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.TransactionReferences2Ct
+VALUE string BF3983036
+SET Seq.MsgId
+VALUE string STOESI05181211145317651028000005
+SET Seq.AcctSvcrRef
+VALUE string BB5829868
+SET Seq.PmtInfId
+VALUE string TR40720378
+SET Seq.InstrId
+VALUE string EE32821669
+SET Seq.EndToEndId
+SET Seq.Refs
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AmountAndCurrencyExchange3Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AmountAndCurrencyExchangeDetails3Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ActiveOrHistoricCurrencyAndAmountCt
+VALUE string SEK
+SET Ccy
+VALUE number 1782.00
+SET Value
+SET Seq.Amt
+SET Seq.TxAmt
+ENTER Seq.PrtryAmts
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AmountAndCurrencyExchangeDetails4Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ActiveOrHistoricCurrencyAndAmountCt
+VALUE string NULL
+EXIT OBJECT/VALUE
+VALUE number NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT ITEM
+EXIT LIST
+SET Seq.AmtDtls
+CREATE Messages.ISO.CAMTx053x001x02.Tns.TransactionParty2Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.PartyIdentification32Ct
+VALUE string TEST Customer
+SET Seq.Nm
+CREATE Messages.ISO.CAMTx053x001x02.Tns.Party6ChoiceCt
+CREATE Messages.ISO.CAMTx053x001x02.Tns.PersonIdentification5Ct
+ENTER Seq.Othrs
+CREATE Messages.ISO.CAMTx053x001x02.Tns.GenericPersonIdentification1Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.PersonIdentificationSchemeName1ChoiceCt
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT ITEM
+EXIT LIST
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.PostalAddress6Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+VALUE string NULL
+EXIT OBJECT/VALUE
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+SET Seq.Dbtr
+CREATE Messages.ISO.CAMTx053x001x02.Tns.CashAccount16Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AccountIdentification4ChoiceCt
+CREATE Messages.ISO.CAMTx053x001x02.Tns.GenericAccountIdentification1Ct
+VALUE string 9814443
+SET Seq.Id
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AccountSchemeName1ChoiceCt
+VALUE string BGNR
+SET Seq.Chc.Prtry
+SET Seq.SchmeNm
+SET Seq.Chc.Othr
+SET Seq.Id
+VALUE string SEK
+SET Seq.Ccy
+SET Seq.DbtrAcct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.PartyIdentification32Ct
+VALUE string Beneficiary
+SET Seq.Nm
+CREATE Messages.ISO.CAMTx053x001x02.Tns.Party6ChoiceCt
+CREATE Messages.ISO.CAMTx053x001x02.Tns.OrganisationIdentification4Ct
+ENTER Seq.Othrs
+CREATE Messages.ISO.CAMTx053x001x02.Tns.GenericOrganisationIdentification1Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.OrganisationIdentificationSchemeName1ChoiceCt
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT ITEM
+EXIT LIST
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+SET Seq.Cdtr
+CREATE Messages.ISO.CAMTx053x001x02.Tns.PartyIdentification32Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.CashAccount16Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AccountIdentification4ChoiceCt
+CREATE Messages.ISO.CAMTx053x001x02.Tns.GenericAccountIdentification1Ct
+VALUE string 5555555
+SET Seq.Id
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AccountSchemeName1ChoiceCt
+VALUE string NULL
+EXIT OBJECT/VALUE
+VALUE string BGNR
+SET Seq.Chc.Prtry
+SET Seq.SchmeNm
+VALUE string BGC
+SET Seq.Issr
+SET Seq.Chc.Othr
+SET Seq.Id
+SET Seq.CdtrAcct
+SET Seq.RltdPties
+CREATE Messages.ISO.CAMTx053x001x02.Tns.TransactionAgents2Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.BranchAndFinancialInstitutionIdentification4Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.FinancialInstitutionIdentification7Ct
+VALUE string Skandinaviska Enskilda Banken
+SET Seq.Nm
+VALUE string NULL
+EXIT OBJECT/VALUE
+SET Seq.FinInstnId
+SET Seq.DbtrAgt
+CREATE Messages.ISO.CAMTx053x001x02.Tns.BranchAndFinancialInstitutionIdentification4Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.FinancialInstitutionIdentification7Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+SET Seq.RltdAgts
+CREATE Messages.ISO.CAMTx053x001x02.Tns.Purpose2ChoiceCt
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.RemittanceInformation5Ct
+ENTER Seq.Ustrds
+VALUE string NULL
+EXIT ITEM
+EXIT LIST
+ENTER Seq.Strds
+CREATE Messages.ISO.CAMTx053x001x02.Tns.StructuredRemittanceInformation7Ct
+ENTER Seq.RfrdDocInfs
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ReferredDocumentInformation3Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ReferredDocumentType2Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ReferredDocumentType1ChoiceCt
+VALUE enum NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT ITEM
+EXIT LIST
+CREATE Messages.ISO.CAMTx053x001x02.Tns.RemittanceAmount1Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ActiveOrHistoricCurrencyAndAmountCt
+VALUE string SEK
+SET Ccy
+VALUE number 1782.000
+SET Value
+SET Seq.RmtdAmt
+SET Seq.RfrdDocAmt
+CREATE Messages.ISO.CAMTx053x001x02.Tns.CreditorReferenceInformation2Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.CreditorReferenceType2Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.CreditorReferenceType1ChoiceCt
+VALUE enum Messages.ISO.CAMTx053x001x02.Tns.DocumentType3CodeEnum SCOR
+SET Seq.Chc.Cd
+SET Seq.CdOrPrtry
+SET Seq.Tp
+VALUE string 555555555556
+SET Seq.Ref_
+SET Seq.CdtrRefInf
+ADD
+EXIT LIST
+SET Seq.RmtInf
+ADD
+CREATE Messages.ISO.CAMTx053x001x02.Tns.EntryTransaction2Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.TransactionReferences2Ct
+VALUE string BF3983036
+SET Seq.MsgId
+VALUE string STOESI05181211145317651029000001
+SET Seq.AcctSvcrRef
+VALUE string BB5829869
+SET Seq.PmtInfId
+VALUE string TR40720379
+SET Seq.InstrId
+VALUE string EE32821670
+SET Seq.EndToEndId
+SET Seq.Refs
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AmountAndCurrencyExchange3Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AmountAndCurrencyExchangeDetails3Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ActiveOrHistoricCurrencyAndAmountCt
+VALUE string SEK
+SET Ccy
+VALUE number 13854.00
+SET Value
+SET Seq.Amt
+SET Seq.TxAmt
+ENTER Seq.PrtryAmts
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AmountAndCurrencyExchangeDetails4Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ActiveOrHistoricCurrencyAndAmountCt
+VALUE string NULL
+EXIT OBJECT/VALUE
+VALUE number NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT ITEM
+EXIT LIST
+SET Seq.AmtDtls
+CREATE Messages.ISO.CAMTx053x001x02.Tns.TransactionParty2Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.PartyIdentification32Ct
+VALUE string TEST Customer
+SET Seq.Nm
+CREATE Messages.ISO.CAMTx053x001x02.Tns.Party6ChoiceCt
+CREATE Messages.ISO.CAMTx053x001x02.Tns.PersonIdentification5Ct
+ENTER Seq.Othrs
+CREATE Messages.ISO.CAMTx053x001x02.Tns.GenericPersonIdentification1Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.PersonIdentificationSchemeName1ChoiceCt
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT ITEM
+EXIT LIST
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.PostalAddress6Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+VALUE string NULL
+EXIT OBJECT/VALUE
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+SET Seq.Dbtr
+CREATE Messages.ISO.CAMTx053x001x02.Tns.CashAccount16Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AccountIdentification4ChoiceCt
+CREATE Messages.ISO.CAMTx053x001x02.Tns.GenericAccountIdentification1Ct
+VALUE string 9814443
+SET Seq.Id
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AccountSchemeName1ChoiceCt
+VALUE string BGNR
+SET Seq.Chc.Prtry
+SET Seq.SchmeNm
+SET Seq.Chc.Othr
+SET Seq.Id
+VALUE string SEK
+SET Seq.Ccy
+SET Seq.DbtrAcct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.PartyIdentification32Ct
+VALUE string Benficiary
+SET Seq.Nm
+CREATE Messages.ISO.CAMTx053x001x02.Tns.Party6ChoiceCt
+CREATE Messages.ISO.CAMTx053x001x02.Tns.OrganisationIdentification4Ct
+ENTER Seq.Othrs
+CREATE Messages.ISO.CAMTx053x001x02.Tns.GenericOrganisationIdentification1Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.OrganisationIdentificationSchemeName1ChoiceCt
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT ITEM
+EXIT LIST
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+SET Seq.Cdtr
+CREATE Messages.ISO.CAMTx053x001x02.Tns.PartyIdentification32Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.CashAccount16Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AccountIdentification4ChoiceCt
+CREATE Messages.ISO.CAMTx053x001x02.Tns.GenericAccountIdentification1Ct
+VALUE string 9999999
+SET Seq.Id
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AccountSchemeName1ChoiceCt
+VALUE string NULL
+EXIT OBJECT/VALUE
+VALUE string BGNR
+SET Seq.Chc.Prtry
+SET Seq.SchmeNm
+VALUE string BGC
+SET Seq.Issr
+SET Seq.Chc.Othr
+SET Seq.Id
+SET Seq.CdtrAcct
+SET Seq.RltdPties
+CREATE Messages.ISO.CAMTx053x001x02.Tns.TransactionAgents2Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.BranchAndFinancialInstitutionIdentification4Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.FinancialInstitutionIdentification7Ct
+VALUE string Skandinaviska Enskilda Banken
+SET Seq.Nm
+VALUE string NULL
+EXIT OBJECT/VALUE
+SET Seq.FinInstnId
+SET Seq.DbtrAgt
+CREATE Messages.ISO.CAMTx053x001x02.Tns.BranchAndFinancialInstitutionIdentification4Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.FinancialInstitutionIdentification7Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+SET Seq.RltdAgts
+CREATE Messages.ISO.CAMTx053x001x02.Tns.Purpose2ChoiceCt
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.RemittanceInformation5Ct
+ENTER Seq.Ustrds
+VALUE string NULL
+EXIT ITEM
+EXIT LIST
+ENTER Seq.Strds
+CREATE Messages.ISO.CAMTx053x001x02.Tns.StructuredRemittanceInformation7Ct
+ENTER Seq.RfrdDocInfs
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ReferredDocumentInformation3Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ReferredDocumentType2Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ReferredDocumentType1ChoiceCt
+VALUE enum NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT ITEM
+EXIT LIST
+CREATE Messages.ISO.CAMTx053x001x02.Tns.RemittanceAmount1Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ActiveOrHistoricCurrencyAndAmountCt
+VALUE string SEK
+SET Ccy
+VALUE number 13854.000
+SET Value
+SET Seq.RmtdAmt
+SET Seq.RfrdDocAmt
+CREATE Messages.ISO.CAMTx053x001x02.Tns.CreditorReferenceInformation2Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.CreditorReferenceType2Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.CreditorReferenceType1ChoiceCt
+VALUE enum Messages.ISO.CAMTx053x001x02.Tns.DocumentType3CodeEnum SCOR
+SET Seq.Chc.Cd
+SET Seq.CdOrPrtry
+SET Seq.Tp
+VALUE string 1111111111
+SET Seq.Ref_
+SET Seq.CdtrRefInf
+ADD
+EXIT LIST
+SET Seq.RmtInf
+ADD
+CREATE Messages.ISO.CAMTx053x001x02.Tns.EntryTransaction2Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.TransactionReferences2Ct
+VALUE string BF4008342
+SET Seq.MsgId
+VALUE string STOESI05181214152933824805000001
+SET Seq.AcctSvcrRef
+VALUE string BB5876539
+SET Seq.PmtInfId
+VALUE string TR41019169
+SET Seq.InstrId
+VALUE string EE33055029
+SET Seq.EndToEndId
+SET Seq.Refs
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AmountAndCurrencyExchange3Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AmountAndCurrencyExchangeDetails3Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ActiveOrHistoricCurrencyAndAmountCt
+VALUE string SEK
+SET Ccy
+VALUE number 27500.00
+SET Value
+SET Seq.Amt
+SET Seq.TxAmt
+ENTER Seq.PrtryAmts
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AmountAndCurrencyExchangeDetails4Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ActiveOrHistoricCurrencyAndAmountCt
+VALUE string NULL
+EXIT OBJECT/VALUE
+VALUE number NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT ITEM
+EXIT LIST
+SET Seq.AmtDtls
+CREATE Messages.ISO.CAMTx053x001x02.Tns.TransactionParty2Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.PartyIdentification32Ct
+VALUE string TEST Customer
+SET Seq.Nm
+CREATE Messages.ISO.CAMTx053x001x02.Tns.Party6ChoiceCt
+CREATE Messages.ISO.CAMTx053x001x02.Tns.PersonIdentification5Ct
+ENTER Seq.Othrs
+CREATE Messages.ISO.CAMTx053x001x02.Tns.GenericPersonIdentification1Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.PersonIdentificationSchemeName1ChoiceCt
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT ITEM
+EXIT LIST
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.PostalAddress6Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+VALUE string NULL
+EXIT OBJECT/VALUE
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+SET Seq.Dbtr
+CREATE Messages.ISO.CAMTx053x001x02.Tns.CashAccount16Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AccountIdentification4ChoiceCt
+CREATE Messages.ISO.CAMTx053x001x02.Tns.GenericAccountIdentification1Ct
+VALUE string 9814443
+SET Seq.Id
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AccountSchemeName1ChoiceCt
+VALUE string BGNR
+SET Seq.Chc.Prtry
+SET Seq.SchmeNm
+SET Seq.Chc.Othr
+SET Seq.Id
+VALUE string SEK
+SET Seq.Ccy
+SET Seq.DbtrAcct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.PartyIdentification32Ct
+VALUE string Beneficiary
+SET Seq.Nm
+CREATE Messages.ISO.CAMTx053x001x02.Tns.Party6ChoiceCt
+CREATE Messages.ISO.CAMTx053x001x02.Tns.OrganisationIdentification4Ct
+ENTER Seq.Othrs
+CREATE Messages.ISO.CAMTx053x001x02.Tns.GenericOrganisationIdentification1Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.OrganisationIdentificationSchemeName1ChoiceCt
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT ITEM
+EXIT LIST
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+SET Seq.Cdtr
+CREATE Messages.ISO.CAMTx053x001x02.Tns.PartyIdentification32Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.CashAccount16Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AccountIdentification4ChoiceCt
+CREATE Messages.ISO.CAMTx053x001x02.Tns.GenericAccountIdentification1Ct
+VALUE string 3535353
+SET Seq.Id
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AccountSchemeName1ChoiceCt
+VALUE string NULL
+EXIT OBJECT/VALUE
+VALUE string BGNR
+SET Seq.Chc.Prtry
+SET Seq.SchmeNm
+VALUE string BGC
+SET Seq.Issr
+SET Seq.Chc.Othr
+SET Seq.Id
+SET Seq.CdtrAcct
+SET Seq.RltdPties
+CREATE Messages.ISO.CAMTx053x001x02.Tns.TransactionAgents2Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.BranchAndFinancialInstitutionIdentification4Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.FinancialInstitutionIdentification7Ct
+VALUE string Skandinaviska Enskilda Banken
+SET Seq.Nm
+VALUE string NULL
+EXIT OBJECT/VALUE
+SET Seq.FinInstnId
+SET Seq.DbtrAgt
+CREATE Messages.ISO.CAMTx053x001x02.Tns.BranchAndFinancialInstitutionIdentification4Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.FinancialInstitutionIdentification7Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+SET Seq.RltdAgts
+CREATE Messages.ISO.CAMTx053x001x02.Tns.Purpose2ChoiceCt
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.RemittanceInformation5Ct
+ENTER Seq.Ustrds
+VALUE string NULL
+EXIT ITEM
+EXIT LIST
+ENTER Seq.Strds
+CREATE Messages.ISO.CAMTx053x001x02.Tns.StructuredRemittanceInformation7Ct
+ENTER Seq.RfrdDocInfs
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ReferredDocumentInformation3Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ReferredDocumentType2Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ReferredDocumentType1ChoiceCt
+VALUE enum Messages.ISO.CAMTx053x001x02.Tns.DocumentType5CodeEnum CINV
+SET Seq.Chc.Cd
+SET Seq.CdOrPrtry
+SET Seq.Tp
+VALUE string 1807
+SET Seq.Nb
+ADD
+EXIT LIST
+CREATE Messages.ISO.CAMTx053x001x02.Tns.RemittanceAmount1Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ActiveOrHistoricCurrencyAndAmountCt
+VALUE string SEK
+SET Ccy
+VALUE number 27500.000
+SET Value
+SET Seq.RmtdAmt
+SET Seq.RfrdDocAmt
+CREATE Messages.ISO.CAMTx053x001x02.Tns.CreditorReferenceInformation2Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.CreditorReferenceType2Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.CreditorReferenceType1ChoiceCt
+VALUE enum NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+ADD
+EXIT LIST
+SET Seq.RmtInf
+ADD
+EXIT LIST
+ADD
+EXIT LIST
+ADD
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ReportEntry2Ct
+VALUE string BG52827999 00444-0010452
+SET Seq.NtryRef
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ActiveOrHistoricCurrencyAndAmountCt
+VALUE string SEK
+SET Ccy
+VALUE number 91838.00
+SET Value
+SET Seq.Amt
+VALUE enum Messages.ISO.CAMTx053x001x02.Tns.CreditDebitCodeEnum CRDT
+SET Seq.CdtDbtInd
+VALUE enum Messages.ISO.CAMTx053x001x02.Tns.EntryStatus2CodeEnum BOOK
+SET Seq.Sts
+CREATE Messages.ISO.CAMTx053x001x02.Tns.DateAndDateTimeChoiceCt
+VALUE date 2018-12-17T00:00:00
+SET Seq.Chc.Dt
+SET Seq.BookgDt
+CREATE Messages.ISO.CAMTx053x001x02.Tns.DateAndDateTimeChoiceCt
+VALUE date 2018-12-17T00:00:00
+SET Seq.Chc.Dt
+SET Seq.ValDt
+VALUE string STOI501110110190010452
+SET Seq.AcctSvcrRef
+CREATE Messages.ISO.CAMTx053x001x02.Tns.BankTransactionCodeStructure4Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.BankTransactionCodeStructure5Ct
+VALUE string PMNT
+SET Seq.Cd
+CREATE Messages.ISO.CAMTx053x001x02.Tns.BankTransactionCodeStructure6Ct
+VALUE string RCDT
+SET Seq.Cd
+VALUE string ATXN
+SET Seq.SubFmlyCd
+SET Seq.Fmly
+SET Seq.Domn
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ProprietaryBankTransactionCodeStructure1Ct
+VALUE string TRF
+SET Seq.Cd
+VALUE string SWIFT
+SET Seq.Issr
+SET Seq.Prtry
+SET Seq.BkTxCd
+ENTER Seq.NtryDtlss
+CREATE Messages.ISO.CAMTx053x001x02.Tns.EntryDetails1Ct
+ENTER Seq.TxDtlss
+CREATE Messages.ISO.CAMTx053x001x02.Tns.EntryTransaction2Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.TransactionReferences2Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+VALUE string STOIIQ0I201812171411243202000001
+SET Seq.AcctSvcrRef
+VALUE string NULL
+EXIT OBJECT/VALUE
+VALUE string 52827359
+SET Seq.InstrId
+VALUE string NULL
+EXIT OBJECT/VALUE
+SET Seq.Refs
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AmountAndCurrencyExchange3Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AmountAndCurrencyExchangeDetails3Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ActiveOrHistoricCurrencyAndAmountCt
+VALUE string SEK
+SET Ccy
+VALUE number 8625.00
+SET Value
+SET Seq.Amt
+SET Seq.TxAmt
+ENTER Seq.PrtryAmts
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AmountAndCurrencyExchangeDetails4Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ActiveOrHistoricCurrencyAndAmountCt
+VALUE string NULL
+EXIT OBJECT/VALUE
+VALUE number NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT ITEM
+EXIT LIST
+SET Seq.AmtDtls
+CREATE Messages.ISO.CAMTx053x001x02.Tns.TransactionParty2Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.PartyIdentification32Ct
+VALUE string Debtor
+SET Seq.Nm
+CREATE Messages.ISO.CAMTx053x001x02.Tns.Party6ChoiceCt
+CREATE Messages.ISO.CAMTx053x001x02.Tns.PersonIdentification5Ct
+ENTER Seq.Othrs
+CREATE Messages.ISO.CAMTx053x001x02.Tns.GenericPersonIdentification1Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.PersonIdentificationSchemeName1ChoiceCt
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT ITEM
+EXIT LIST
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.PostalAddress6Ct
+VALUE string Street name
+SET Seq.StrtNm
+VALUE string Postal code
+SET Seq.PstCd
+VALUE string Town name
+SET Seq.TwnNm
+SET Seq.PstlAdr
+SET Seq.Dbtr
+CREATE Messages.ISO.CAMTx053x001x02.Tns.CashAccount16Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AccountIdentification4ChoiceCt
+CREATE Messages.ISO.CAMTx053x001x02.Tns.GenericAccountIdentification1Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AccountSchemeName1ChoiceCt
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.PartyIdentification32Ct
+VALUE string TEST Customer
+SET Seq.Nm
+CREATE Messages.ISO.CAMTx053x001x02.Tns.Party6ChoiceCt
+CREATE Messages.ISO.CAMTx053x001x02.Tns.OrganisationIdentification4Ct
+ENTER Seq.Othrs
+CREATE Messages.ISO.CAMTx053x001x02.Tns.GenericOrganisationIdentification1Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.OrganisationIdentificationSchemeName1ChoiceCt
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT ITEM
+EXIT LIST
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+SET Seq.Cdtr
+CREATE Messages.ISO.CAMTx053x001x02.Tns.PartyIdentification32Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.CashAccount16Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AccountIdentification4ChoiceCt
+CREATE Messages.ISO.CAMTx053x001x02.Tns.GenericAccountIdentification1Ct
+VALUE string 9814443
+SET Seq.Id
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AccountSchemeName1ChoiceCt
+VALUE string NULL
+EXIT OBJECT/VALUE
+VALUE string BGNR
+SET Seq.Chc.Prtry
+SET Seq.SchmeNm
+VALUE string NULL
+EXIT OBJECT/VALUE
+SET Seq.Chc.Othr
+SET Seq.Id
+SET Seq.CdtrAcct
+SET Seq.RltdPties
+CREATE Messages.ISO.CAMTx053x001x02.Tns.TransactionAgents2Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.BranchAndFinancialInstitutionIdentification4Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.FinancialInstitutionIdentification7Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+VALUE string ESSESESS
+SET Seq.BIC
+SET Seq.FinInstnId
+SET Seq.DbtrAgt
+CREATE Messages.ISO.CAMTx053x001x02.Tns.BranchAndFinancialInstitutionIdentification4Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.FinancialInstitutionIdentification7Ct
+VALUE string ESSESESS
+SET Seq.BIC
+SET Seq.FinInstnId
+SET Seq.CdtrAgt
+SET Seq.RltdAgts
+CREATE Messages.ISO.CAMTx053x001x02.Tns.Purpose2ChoiceCt
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.RemittanceInformation5Ct
+ENTER Seq.Ustrds
+VALUE string NULL
+EXIT ITEM
+EXIT LIST
+ENTER Seq.Strds
+CREATE Messages.ISO.CAMTx053x001x02.Tns.StructuredRemittanceInformation7Ct
+ENTER Seq.RfrdDocInfs
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ReferredDocumentInformation3Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ReferredDocumentType2Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ReferredDocumentType1ChoiceCt
+VALUE enum Messages.ISO.CAMTx053x001x02.Tns.DocumentType5CodeEnum CINV
+SET Seq.Chc.Cd
+SET Seq.CdOrPrtry
+SET Seq.Tp
+VALUE string 50193999
+SET Seq.Nb
+ADD
+EXIT LIST
+CREATE Messages.ISO.CAMTx053x001x02.Tns.RemittanceAmount1Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ActiveOrHistoricCurrencyAndAmountCt
+VALUE string SEK
+SET Ccy
+VALUE number 8625.000
+SET Value
+SET Seq.RmtdAmt
+SET Seq.RfrdDocAmt
+CREATE Messages.ISO.CAMTx053x001x02.Tns.CreditorReferenceInformation2Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.CreditorReferenceType2Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.CreditorReferenceType1ChoiceCt
+VALUE enum NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+ADD
+EXIT LIST
+SET Seq.RmtInf
+ADD
+CREATE Messages.ISO.CAMTx053x001x02.Tns.EntryTransaction2Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.TransactionReferences2Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+VALUE string STOIIQ0I201812171411243218000001
+SET Seq.AcctSvcrRef
+VALUE string NULL
+EXIT OBJECT/VALUE
+VALUE string 52827359
+SET Seq.InstrId
+VALUE string NULL
+EXIT OBJECT/VALUE
+SET Seq.Refs
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AmountAndCurrencyExchange3Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AmountAndCurrencyExchangeDetails3Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ActiveOrHistoricCurrencyAndAmountCt
+VALUE string SEK
+SET Ccy
+VALUE number 26500.00
+SET Value
+SET Seq.Amt
+SET Seq.TxAmt
+ENTER Seq.PrtryAmts
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AmountAndCurrencyExchangeDetails4Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ActiveOrHistoricCurrencyAndAmountCt
+VALUE string NULL
+EXIT OBJECT/VALUE
+VALUE number NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT ITEM
+EXIT LIST
+SET Seq.AmtDtls
+CREATE Messages.ISO.CAMTx053x001x02.Tns.TransactionParty2Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.PartyIdentification32Ct
+VALUE string Debtor
+SET Seq.Nm
+CREATE Messages.ISO.CAMTx053x001x02.Tns.Party6ChoiceCt
+CREATE Messages.ISO.CAMTx053x001x02.Tns.PersonIdentification5Ct
+ENTER Seq.Othrs
+CREATE Messages.ISO.CAMTx053x001x02.Tns.GenericPersonIdentification1Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.PersonIdentificationSchemeName1ChoiceCt
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT ITEM
+EXIT LIST
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.PostalAddress6Ct
+VALUE string Street name
+SET Seq.StrtNm
+VALUE string Postal code
+SET Seq.PstCd
+VALUE string Town name
+SET Seq.TwnNm
+SET Seq.PstlAdr
+SET Seq.Dbtr
+CREATE Messages.ISO.CAMTx053x001x02.Tns.CashAccount16Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AccountIdentification4ChoiceCt
+CREATE Messages.ISO.CAMTx053x001x02.Tns.GenericAccountIdentification1Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AccountSchemeName1ChoiceCt
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.PartyIdentification32Ct
+VALUE string TEST Customer
+SET Seq.Nm
+CREATE Messages.ISO.CAMTx053x001x02.Tns.Party6ChoiceCt
+CREATE Messages.ISO.CAMTx053x001x02.Tns.OrganisationIdentification4Ct
+ENTER Seq.Othrs
+CREATE Messages.ISO.CAMTx053x001x02.Tns.GenericOrganisationIdentification1Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.OrganisationIdentificationSchemeName1ChoiceCt
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT ITEM
+EXIT LIST
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+SET Seq.Cdtr
+CREATE Messages.ISO.CAMTx053x001x02.Tns.PartyIdentification32Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.CashAccount16Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AccountIdentification4ChoiceCt
+CREATE Messages.ISO.CAMTx053x001x02.Tns.GenericAccountIdentification1Ct
+VALUE string 9814443
+SET Seq.Id
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AccountSchemeName1ChoiceCt
+VALUE string NULL
+EXIT OBJECT/VALUE
+VALUE string BGNR
+SET Seq.Chc.Prtry
+SET Seq.SchmeNm
+VALUE string NULL
+EXIT OBJECT/VALUE
+SET Seq.Chc.Othr
+SET Seq.Id
+SET Seq.CdtrAcct
+SET Seq.RltdPties
+CREATE Messages.ISO.CAMTx053x001x02.Tns.TransactionAgents2Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.BranchAndFinancialInstitutionIdentification4Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.FinancialInstitutionIdentification7Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+VALUE string ESSESESS
+SET Seq.BIC
+SET Seq.FinInstnId
+SET Seq.DbtrAgt
+CREATE Messages.ISO.CAMTx053x001x02.Tns.BranchAndFinancialInstitutionIdentification4Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.FinancialInstitutionIdentification7Ct
+VALUE string ESSESESS
+SET Seq.BIC
+SET Seq.FinInstnId
+SET Seq.CdtrAgt
+SET Seq.RltdAgts
+CREATE Messages.ISO.CAMTx053x001x02.Tns.Purpose2ChoiceCt
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.RemittanceInformation5Ct
+ENTER Seq.Ustrds
+VALUE string NULL
+EXIT ITEM
+EXIT LIST
+ENTER Seq.Strds
+CREATE Messages.ISO.CAMTx053x001x02.Tns.StructuredRemittanceInformation7Ct
+ENTER Seq.RfrdDocInfs
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ReferredDocumentInformation3Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ReferredDocumentType2Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ReferredDocumentType1ChoiceCt
+VALUE enum Messages.ISO.CAMTx053x001x02.Tns.DocumentType5CodeEnum CINV
+SET Seq.Chc.Cd
+SET Seq.CdOrPrtry
+SET Seq.Tp
+VALUE string 501998
+SET Seq.Nb
+ADD
+EXIT LIST
+CREATE Messages.ISO.CAMTx053x001x02.Tns.RemittanceAmount1Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ActiveOrHistoricCurrencyAndAmountCt
+VALUE string SEK
+SET Ccy
+VALUE number 26500.000
+SET Value
+SET Seq.RmtdAmt
+SET Seq.RfrdDocAmt
+CREATE Messages.ISO.CAMTx053x001x02.Tns.CreditorReferenceInformation2Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.CreditorReferenceType2Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.CreditorReferenceType1ChoiceCt
+VALUE enum NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+ADD
+EXIT LIST
+SET Seq.RmtInf
+ADD
+CREATE Messages.ISO.CAMTx053x001x02.Tns.EntryTransaction2Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.TransactionReferences2Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+VALUE string STOIIQ0I201812171411243228000001
+SET Seq.AcctSvcrRef
+VALUE string NULL
+EXIT OBJECT/VALUE
+VALUE string 52827359
+SET Seq.InstrId
+VALUE string NULL
+EXIT OBJECT/VALUE
+SET Seq.Refs
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AmountAndCurrencyExchange3Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AmountAndCurrencyExchangeDetails3Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ActiveOrHistoricCurrencyAndAmountCt
+VALUE string SEK
+SET Ccy
+VALUE number 1313.00
+SET Value
+SET Seq.Amt
+SET Seq.TxAmt
+ENTER Seq.PrtryAmts
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AmountAndCurrencyExchangeDetails4Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ActiveOrHistoricCurrencyAndAmountCt
+VALUE string NULL
+EXIT OBJECT/VALUE
+VALUE number NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT ITEM
+EXIT LIST
+SET Seq.AmtDtls
+CREATE Messages.ISO.CAMTx053x001x02.Tns.TransactionParty2Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.PartyIdentification32Ct
+VALUE string Debtor
+SET Seq.Nm
+CREATE Messages.ISO.CAMTx053x001x02.Tns.Party6ChoiceCt
+CREATE Messages.ISO.CAMTx053x001x02.Tns.PersonIdentification5Ct
+ENTER Seq.Othrs
+CREATE Messages.ISO.CAMTx053x001x02.Tns.GenericPersonIdentification1Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.PersonIdentificationSchemeName1ChoiceCt
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT ITEM
+EXIT LIST
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.PostalAddress6Ct
+VALUE string Street name
+SET Seq.StrtNm
+VALUE string Postal code
+SET Seq.PstCd
+VALUE string Town name
+SET Seq.TwnNm
+SET Seq.PstlAdr
+SET Seq.Dbtr
+CREATE Messages.ISO.CAMTx053x001x02.Tns.CashAccount16Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AccountIdentification4ChoiceCt
+CREATE Messages.ISO.CAMTx053x001x02.Tns.GenericAccountIdentification1Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AccountSchemeName1ChoiceCt
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.PartyIdentification32Ct
+VALUE string TEST Customer
+SET Seq.Nm
+CREATE Messages.ISO.CAMTx053x001x02.Tns.Party6ChoiceCt
+CREATE Messages.ISO.CAMTx053x001x02.Tns.OrganisationIdentification4Ct
+ENTER Seq.Othrs
+CREATE Messages.ISO.CAMTx053x001x02.Tns.GenericOrganisationIdentification1Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.OrganisationIdentificationSchemeName1ChoiceCt
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT ITEM
+EXIT LIST
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+SET Seq.Cdtr
+CREATE Messages.ISO.CAMTx053x001x02.Tns.PartyIdentification32Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.CashAccount16Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AccountIdentification4ChoiceCt
+CREATE Messages.ISO.CAMTx053x001x02.Tns.GenericAccountIdentification1Ct
+VALUE string 9814443
+SET Seq.Id
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AccountSchemeName1ChoiceCt
+VALUE string NULL
+EXIT OBJECT/VALUE
+VALUE string BGNR
+SET Seq.Chc.Prtry
+SET Seq.SchmeNm
+VALUE string NULL
+EXIT OBJECT/VALUE
+SET Seq.Chc.Othr
+SET Seq.Id
+SET Seq.CdtrAcct
+SET Seq.RltdPties
+CREATE Messages.ISO.CAMTx053x001x02.Tns.TransactionAgents2Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.BranchAndFinancialInstitutionIdentification4Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.FinancialInstitutionIdentification7Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+VALUE string ESSESESS
+SET Seq.BIC
+SET Seq.FinInstnId
+SET Seq.DbtrAgt
+CREATE Messages.ISO.CAMTx053x001x02.Tns.BranchAndFinancialInstitutionIdentification4Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.FinancialInstitutionIdentification7Ct
+VALUE string ESSESESS
+SET Seq.BIC
+SET Seq.FinInstnId
+SET Seq.CdtrAgt
+SET Seq.RltdAgts
+CREATE Messages.ISO.CAMTx053x001x02.Tns.Purpose2ChoiceCt
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.RemittanceInformation5Ct
+ENTER Seq.Ustrds
+VALUE string NULL
+EXIT ITEM
+EXIT LIST
+ENTER Seq.Strds
+CREATE Messages.ISO.CAMTx053x001x02.Tns.StructuredRemittanceInformation7Ct
+ENTER Seq.RfrdDocInfs
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ReferredDocumentInformation3Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ReferredDocumentType2Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ReferredDocumentType1ChoiceCt
+VALUE enum Messages.ISO.CAMTx053x001x02.Tns.DocumentType5CodeEnum CINV
+SET Seq.Chc.Cd
+SET Seq.CdOrPrtry
+SET Seq.Tp
+VALUE string 10297999
+SET Seq.Nb
+ADD
+EXIT LIST
+CREATE Messages.ISO.CAMTx053x001x02.Tns.RemittanceAmount1Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ActiveOrHistoricCurrencyAndAmountCt
+VALUE string SEK
+SET Ccy
+VALUE number 1313.000
+SET Value
+SET Seq.RmtdAmt
+SET Seq.RfrdDocAmt
+CREATE Messages.ISO.CAMTx053x001x02.Tns.CreditorReferenceInformation2Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.CreditorReferenceType2Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.CreditorReferenceType1ChoiceCt
+VALUE enum NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+ADD
+EXIT LIST
+SET Seq.RmtInf
+ADD
+CREATE Messages.ISO.CAMTx053x001x02.Tns.EntryTransaction2Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.TransactionReferences2Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+VALUE string STOIIQ0I201812171411243240000001
+SET Seq.AcctSvcrRef
+VALUE string NULL
+EXIT OBJECT/VALUE
+VALUE string 52827359
+SET Seq.InstrId
+VALUE string NULL
+EXIT OBJECT/VALUE
+SET Seq.Refs
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AmountAndCurrencyExchange3Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AmountAndCurrencyExchangeDetails3Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ActiveOrHistoricCurrencyAndAmountCt
+VALUE string SEK
+SET Ccy
+VALUE number 21875.00
+SET Value
+SET Seq.Amt
+SET Seq.TxAmt
+ENTER Seq.PrtryAmts
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AmountAndCurrencyExchangeDetails4Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ActiveOrHistoricCurrencyAndAmountCt
+VALUE string NULL
+EXIT OBJECT/VALUE
+VALUE number NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT ITEM
+EXIT LIST
+SET Seq.AmtDtls
+CREATE Messages.ISO.CAMTx053x001x02.Tns.TransactionParty2Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.PartyIdentification32Ct
+VALUE string Debtor
+SET Seq.Nm
+CREATE Messages.ISO.CAMTx053x001x02.Tns.Party6ChoiceCt
+CREATE Messages.ISO.CAMTx053x001x02.Tns.PersonIdentification5Ct
+ENTER Seq.Othrs
+CREATE Messages.ISO.CAMTx053x001x02.Tns.GenericPersonIdentification1Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.PersonIdentificationSchemeName1ChoiceCt
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT ITEM
+EXIT LIST
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.PostalAddress6Ct
+VALUE string Street name
+SET Seq.StrtNm
+VALUE string Postal code
+SET Seq.PstCd
+VALUE string Town name
+SET Seq.TwnNm
+SET Seq.PstlAdr
+SET Seq.Dbtr
+CREATE Messages.ISO.CAMTx053x001x02.Tns.CashAccount16Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AccountIdentification4ChoiceCt
+CREATE Messages.ISO.CAMTx053x001x02.Tns.GenericAccountIdentification1Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AccountSchemeName1ChoiceCt
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.PartyIdentification32Ct
+VALUE string TEST Customer
+SET Seq.Nm
+CREATE Messages.ISO.CAMTx053x001x02.Tns.Party6ChoiceCt
+CREATE Messages.ISO.CAMTx053x001x02.Tns.OrganisationIdentification4Ct
+ENTER Seq.Othrs
+CREATE Messages.ISO.CAMTx053x001x02.Tns.GenericOrganisationIdentification1Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.OrganisationIdentificationSchemeName1ChoiceCt
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT ITEM
+EXIT LIST
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+SET Seq.Cdtr
+CREATE Messages.ISO.CAMTx053x001x02.Tns.PartyIdentification32Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.CashAccount16Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AccountIdentification4ChoiceCt
+CREATE Messages.ISO.CAMTx053x001x02.Tns.GenericAccountIdentification1Ct
+VALUE string 9814443
+SET Seq.Id
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AccountSchemeName1ChoiceCt
+VALUE string NULL
+EXIT OBJECT/VALUE
+VALUE string BGNR
+SET Seq.Chc.Prtry
+SET Seq.SchmeNm
+VALUE string NULL
+EXIT OBJECT/VALUE
+SET Seq.Chc.Othr
+SET Seq.Id
+SET Seq.CdtrAcct
+SET Seq.RltdPties
+CREATE Messages.ISO.CAMTx053x001x02.Tns.TransactionAgents2Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.BranchAndFinancialInstitutionIdentification4Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.FinancialInstitutionIdentification7Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+VALUE string ESSESESS
+SET Seq.BIC
+SET Seq.FinInstnId
+SET Seq.DbtrAgt
+CREATE Messages.ISO.CAMTx053x001x02.Tns.BranchAndFinancialInstitutionIdentification4Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.FinancialInstitutionIdentification7Ct
+VALUE string ESSESESS
+SET Seq.BIC
+SET Seq.FinInstnId
+SET Seq.CdtrAgt
+SET Seq.RltdAgts
+CREATE Messages.ISO.CAMTx053x001x02.Tns.Purpose2ChoiceCt
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.RemittanceInformation5Ct
+ENTER Seq.Ustrds
+VALUE string NULL
+EXIT ITEM
+EXIT LIST
+ENTER Seq.Strds
+CREATE Messages.ISO.CAMTx053x001x02.Tns.StructuredRemittanceInformation7Ct
+ENTER Seq.RfrdDocInfs
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ReferredDocumentInformation3Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ReferredDocumentType2Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ReferredDocumentType1ChoiceCt
+VALUE enum Messages.ISO.CAMTx053x001x02.Tns.DocumentType5CodeEnum CINV
+SET Seq.Chc.Cd
+SET Seq.CdOrPrtry
+SET Seq.Tp
+VALUE string 501999
+SET Seq.Nb
+ADD
+EXIT LIST
+CREATE Messages.ISO.CAMTx053x001x02.Tns.RemittanceAmount1Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ActiveOrHistoricCurrencyAndAmountCt
+VALUE string SEK
+SET Ccy
+VALUE number 21875.000
+SET Value
+SET Seq.RmtdAmt
+SET Seq.RfrdDocAmt
+CREATE Messages.ISO.CAMTx053x001x02.Tns.CreditorReferenceInformation2Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.CreditorReferenceType2Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.CreditorReferenceType1ChoiceCt
+VALUE enum NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+ADD
+EXIT LIST
+SET Seq.RmtInf
+ADD
+CREATE Messages.ISO.CAMTx053x001x02.Tns.EntryTransaction2Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.TransactionReferences2Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+VALUE string STOIIQ0I201812171411243251000001
+SET Seq.AcctSvcrRef
+VALUE string NULL
+EXIT OBJECT/VALUE
+VALUE string 52827359
+SET Seq.InstrId
+VALUE string NULL
+EXIT OBJECT/VALUE
+SET Seq.Refs
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AmountAndCurrencyExchange3Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AmountAndCurrencyExchangeDetails3Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ActiveOrHistoricCurrencyAndAmountCt
+VALUE string SEK
+SET Ccy
+VALUE number 17900.00
+SET Value
+SET Seq.Amt
+SET Seq.TxAmt
+ENTER Seq.PrtryAmts
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AmountAndCurrencyExchangeDetails4Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ActiveOrHistoricCurrencyAndAmountCt
+VALUE string NULL
+EXIT OBJECT/VALUE
+VALUE number NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT ITEM
+EXIT LIST
+SET Seq.AmtDtls
+CREATE Messages.ISO.CAMTx053x001x02.Tns.TransactionParty2Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.PartyIdentification32Ct
+VALUE string Debtor
+SET Seq.Nm
+CREATE Messages.ISO.CAMTx053x001x02.Tns.Party6ChoiceCt
+CREATE Messages.ISO.CAMTx053x001x02.Tns.PersonIdentification5Ct
+ENTER Seq.Othrs
+CREATE Messages.ISO.CAMTx053x001x02.Tns.GenericPersonIdentification1Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.PersonIdentificationSchemeName1ChoiceCt
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT ITEM
+EXIT LIST
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.PostalAddress6Ct
+VALUE string Street name
+SET Seq.StrtNm
+VALUE string Postal code
+SET Seq.PstCd
+VALUE string Town name
+SET Seq.TwnNm
+SET Seq.PstlAdr
+SET Seq.Dbtr
+CREATE Messages.ISO.CAMTx053x001x02.Tns.CashAccount16Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AccountIdentification4ChoiceCt
+CREATE Messages.ISO.CAMTx053x001x02.Tns.GenericAccountIdentification1Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AccountSchemeName1ChoiceCt
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.PartyIdentification32Ct
+VALUE string Beneficiary
+SET Seq.Nm
+CREATE Messages.ISO.CAMTx053x001x02.Tns.Party6ChoiceCt
+CREATE Messages.ISO.CAMTx053x001x02.Tns.OrganisationIdentification4Ct
+ENTER Seq.Othrs
+CREATE Messages.ISO.CAMTx053x001x02.Tns.GenericOrganisationIdentification1Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.OrganisationIdentificationSchemeName1ChoiceCt
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT ITEM
+EXIT LIST
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+SET Seq.Cdtr
+CREATE Messages.ISO.CAMTx053x001x02.Tns.PartyIdentification32Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.CashAccount16Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AccountIdentification4ChoiceCt
+CREATE Messages.ISO.CAMTx053x001x02.Tns.GenericAccountIdentification1Ct
+VALUE string 9814443
+SET Seq.Id
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AccountSchemeName1ChoiceCt
+VALUE string NULL
+EXIT OBJECT/VALUE
+VALUE string BGNR
+SET Seq.Chc.Prtry
+SET Seq.SchmeNm
+VALUE string NULL
+EXIT OBJECT/VALUE
+SET Seq.Chc.Othr
+SET Seq.Id
+SET Seq.CdtrAcct
+SET Seq.RltdPties
+CREATE Messages.ISO.CAMTx053x001x02.Tns.TransactionAgents2Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.BranchAndFinancialInstitutionIdentification4Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.FinancialInstitutionIdentification7Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+VALUE string ESSESESS
+SET Seq.BIC
+SET Seq.FinInstnId
+SET Seq.DbtrAgt
+CREATE Messages.ISO.CAMTx053x001x02.Tns.BranchAndFinancialInstitutionIdentification4Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.FinancialInstitutionIdentification7Ct
+VALUE string ESSESESS
+SET Seq.BIC
+SET Seq.FinInstnId
+SET Seq.CdtrAgt
+SET Seq.RltdAgts
+CREATE Messages.ISO.CAMTx053x001x02.Tns.Purpose2ChoiceCt
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.RemittanceInformation5Ct
+ENTER Seq.Ustrds
+VALUE string NULL
+EXIT ITEM
+EXIT LIST
+ENTER Seq.Strds
+CREATE Messages.ISO.CAMTx053x001x02.Tns.StructuredRemittanceInformation7Ct
+ENTER Seq.RfrdDocInfs
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ReferredDocumentInformation3Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ReferredDocumentType2Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ReferredDocumentType1ChoiceCt
+VALUE enum Messages.ISO.CAMTx053x001x02.Tns.DocumentType5CodeEnum CINV
+SET Seq.Chc.Cd
+SET Seq.CdOrPrtry
+SET Seq.Tp
+VALUE string 501991
+SET Seq.Nb
+ADD
+EXIT LIST
+CREATE Messages.ISO.CAMTx053x001x02.Tns.RemittanceAmount1Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ActiveOrHistoricCurrencyAndAmountCt
+VALUE string SEK
+SET Ccy
+VALUE number 17900.000
+SET Value
+SET Seq.RmtdAmt
+SET Seq.RfrdDocAmt
+CREATE Messages.ISO.CAMTx053x001x02.Tns.CreditorReferenceInformation2Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.CreditorReferenceType2Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.CreditorReferenceType1ChoiceCt
+VALUE enum NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+ADD
+EXIT LIST
+SET Seq.RmtInf
+ADD
+CREATE Messages.ISO.CAMTx053x001x02.Tns.EntryTransaction2Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.TransactionReferences2Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+VALUE string STOIIQ0I201812171411243260000001
+SET Seq.AcctSvcrRef
+VALUE string NULL
+EXIT OBJECT/VALUE
+VALUE string 52827359
+SET Seq.InstrId
+VALUE string NULL
+EXIT OBJECT/VALUE
+SET Seq.Refs
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AmountAndCurrencyExchange3Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AmountAndCurrencyExchangeDetails3Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ActiveOrHistoricCurrencyAndAmountCt
+VALUE string SEK
+SET Ccy
+VALUE number 15625.00
+SET Value
+SET Seq.Amt
+SET Seq.TxAmt
+ENTER Seq.PrtryAmts
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AmountAndCurrencyExchangeDetails4Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ActiveOrHistoricCurrencyAndAmountCt
+VALUE string NULL
+EXIT OBJECT/VALUE
+VALUE number NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT ITEM
+EXIT LIST
+SET Seq.AmtDtls
+CREATE Messages.ISO.CAMTx053x001x02.Tns.TransactionParty2Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.PartyIdentification32Ct
+VALUE string Debtor
+SET Seq.Nm
+CREATE Messages.ISO.CAMTx053x001x02.Tns.Party6ChoiceCt
+CREATE Messages.ISO.CAMTx053x001x02.Tns.PersonIdentification5Ct
+ENTER Seq.Othrs
+CREATE Messages.ISO.CAMTx053x001x02.Tns.GenericPersonIdentification1Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.PersonIdentificationSchemeName1ChoiceCt
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT ITEM
+EXIT LIST
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.PostalAddress6Ct
+VALUE string Street name
+SET Seq.StrtNm
+VALUE string Postal code
+SET Seq.PstCd
+VALUE string Town name
+SET Seq.TwnNm
+SET Seq.PstlAdr
+SET Seq.Dbtr
+CREATE Messages.ISO.CAMTx053x001x02.Tns.CashAccount16Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AccountIdentification4ChoiceCt
+CREATE Messages.ISO.CAMTx053x001x02.Tns.GenericAccountIdentification1Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AccountSchemeName1ChoiceCt
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.PartyIdentification32Ct
+VALUE string Beneficiary
+SET Seq.Nm
+CREATE Messages.ISO.CAMTx053x001x02.Tns.Party6ChoiceCt
+CREATE Messages.ISO.CAMTx053x001x02.Tns.OrganisationIdentification4Ct
+ENTER Seq.Othrs
+CREATE Messages.ISO.CAMTx053x001x02.Tns.GenericOrganisationIdentification1Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.OrganisationIdentificationSchemeName1ChoiceCt
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT ITEM
+EXIT LIST
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+SET Seq.Cdtr
+CREATE Messages.ISO.CAMTx053x001x02.Tns.PartyIdentification32Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.CashAccount16Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AccountIdentification4ChoiceCt
+CREATE Messages.ISO.CAMTx053x001x02.Tns.GenericAccountIdentification1Ct
+VALUE string 9814443
+SET Seq.Id
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AccountSchemeName1ChoiceCt
+VALUE string NULL
+EXIT OBJECT/VALUE
+VALUE string BGNR
+SET Seq.Chc.Prtry
+SET Seq.SchmeNm
+VALUE string NULL
+EXIT OBJECT/VALUE
+SET Seq.Chc.Othr
+SET Seq.Id
+SET Seq.CdtrAcct
+SET Seq.RltdPties
+CREATE Messages.ISO.CAMTx053x001x02.Tns.TransactionAgents2Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.BranchAndFinancialInstitutionIdentification4Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.FinancialInstitutionIdentification7Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+VALUE string ESSESESS
+SET Seq.BIC
+SET Seq.FinInstnId
+SET Seq.DbtrAgt
+CREATE Messages.ISO.CAMTx053x001x02.Tns.BranchAndFinancialInstitutionIdentification4Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.FinancialInstitutionIdentification7Ct
+VALUE string ESSESESS
+SET Seq.BIC
+SET Seq.FinInstnId
+SET Seq.CdtrAgt
+SET Seq.RltdAgts
+CREATE Messages.ISO.CAMTx053x001x02.Tns.Purpose2ChoiceCt
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.RemittanceInformation5Ct
+ENTER Seq.Ustrds
+VALUE string NULL
+EXIT ITEM
+EXIT LIST
+ENTER Seq.Strds
+CREATE Messages.ISO.CAMTx053x001x02.Tns.StructuredRemittanceInformation7Ct
+ENTER Seq.RfrdDocInfs
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ReferredDocumentInformation3Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ReferredDocumentType2Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ReferredDocumentType1ChoiceCt
+VALUE enum Messages.ISO.CAMTx053x001x02.Tns.DocumentType5CodeEnum CINV
+SET Seq.Chc.Cd
+SET Seq.CdOrPrtry
+SET Seq.Tp
+VALUE string 501997
+SET Seq.Nb
+ADD
+EXIT LIST
+CREATE Messages.ISO.CAMTx053x001x02.Tns.RemittanceAmount1Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ActiveOrHistoricCurrencyAndAmountCt
+VALUE string SEK
+SET Ccy
+VALUE number 15625.000
+SET Value
+SET Seq.RmtdAmt
+SET Seq.RfrdDocAmt
+CREATE Messages.ISO.CAMTx053x001x02.Tns.CreditorReferenceInformation2Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.CreditorReferenceType2Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.CreditorReferenceType1ChoiceCt
+VALUE enum NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+ADD
+EXIT LIST
+SET Seq.RmtInf
+ADD
+EXIT LIST
+ADD
+EXIT LIST
+ADD
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ReportEntry2Ct
+VALUE string B81215944996-0029236
+SET Seq.NtryRef
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ActiveOrHistoricCurrencyAndAmountCt
+VALUE string SEK
+SET Ccy
+VALUE number 72690.00
+SET Value
+SET Seq.Amt
+VALUE enum Messages.ISO.CAMTx053x001x02.Tns.CreditDebitCodeEnum CRDT
+SET Seq.CdtDbtInd
+VALUE enum Messages.ISO.CAMTx053x001x02.Tns.EntryStatus2CodeEnum BOOK
+SET Seq.Sts
+CREATE Messages.ISO.CAMTx053x001x02.Tns.DateAndDateTimeChoiceCt
+VALUE date 2018-12-17T00:00:00
+SET Seq.Chc.Dt
+SET Seq.BookgDt
+CREATE Messages.ISO.CAMTx053x001x02.Tns.DateAndDateTimeChoiceCt
+VALUE date 2018-12-17T00:00:00
+SET Seq.Chc.Dt
+SET Seq.ValDt
+VALUE string STOI520111188400029236
+SET Seq.AcctSvcrRef
+CREATE Messages.ISO.CAMTx053x001x02.Tns.BankTransactionCodeStructure4Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.BankTransactionCodeStructure5Ct
+VALUE string PMNT
+SET Seq.Cd
+CREATE Messages.ISO.CAMTx053x001x02.Tns.BankTransactionCodeStructure6Ct
+VALUE string RCDT
+SET Seq.Cd
+VALUE string BOOK
+SET Seq.SubFmlyCd
+SET Seq.Fmly
+SET Seq.Domn
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ProprietaryBankTransactionCodeStructure1Ct
+VALUE string TRF
+SET Seq.Cd
+VALUE string SWIFT
+SET Seq.Issr
+SET Seq.Prtry
+SET Seq.BkTxCd
+ENTER Seq.NtryDtlss
+CREATE Messages.ISO.CAMTx053x001x02.Tns.EntryDetails1Ct
+ENTER Seq.TxDtlss
+CREATE Messages.ISO.CAMTx053x001x02.Tns.EntryTransaction2Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.TransactionReferences2Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+VALUE string STOESC05181215063528843195009423
+SET Seq.AcctSvcrRef
+VALUE string NULL
+EXIT OBJECT/VALUE
+VALUE string NULL
+EXIT OBJECT/VALUE
+VALUE string NULL
+EXIT OBJECT/VALUE
+SET Seq.Refs
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AmountAndCurrencyExchange3Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AmountAndCurrencyExchangeDetails3Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ActiveOrHistoricCurrencyAndAmountCt
+VALUE string SEK
+SET Ccy
+VALUE number 72690.00
+SET Value
+SET Seq.Amt
+SET Seq.TxAmt
+ENTER Seq.PrtryAmts
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AmountAndCurrencyExchangeDetails4Ct
+VALUE string IBS
+SET Seq.Tp
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ActiveOrHistoricCurrencyAndAmountCt
+VALUE string SEK
+SET Ccy
+VALUE number 72690.00
+SET Value
+SET Seq.Amt
+ADD
+EXIT LIST
+SET Seq.AmtDtls
+CREATE Messages.ISO.CAMTx053x001x02.Tns.TransactionParty2Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.PartyIdentification32Ct
+VALUE string Debtor
+SET Seq.Nm
+CREATE Messages.ISO.CAMTx053x001x02.Tns.Party6ChoiceCt
+CREATE Messages.ISO.CAMTx053x001x02.Tns.PersonIdentification5Ct
+ENTER Seq.Othrs
+CREATE Messages.ISO.CAMTx053x001x02.Tns.GenericPersonIdentification1Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.PersonIdentificationSchemeName1ChoiceCt
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT ITEM
+EXIT LIST
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.PostalAddress6Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+VALUE string NULL
+EXIT OBJECT/VALUE
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+SET Seq.Dbtr
+CREATE Messages.ISO.CAMTx053x001x02.Tns.CashAccount16Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AccountIdentification4ChoiceCt
+CREATE Messages.ISO.CAMTx053x001x02.Tns.GenericAccountIdentification1Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AccountSchemeName1ChoiceCt
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.PartyIdentification32Ct
+VALUE string TEST Customer
+SET Seq.Nm
+CREATE Messages.ISO.CAMTx053x001x02.Tns.Party6ChoiceCt
+CREATE Messages.ISO.CAMTx053x001x02.Tns.OrganisationIdentification4Ct
+ENTER Seq.Othrs
+CREATE Messages.ISO.CAMTx053x001x02.Tns.GenericOrganisationIdentification1Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.OrganisationIdentificationSchemeName1ChoiceCt
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT ITEM
+EXIT LIST
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+SET Seq.Cdtr
+CREATE Messages.ISO.CAMTx053x001x02.Tns.PartyIdentification32Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.CashAccount16Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AccountIdentification4ChoiceCt
+CREATE Messages.ISO.CAMTx053x001x02.Tns.GenericAccountIdentification1Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AccountSchemeName1ChoiceCt
+VALUE string NULL
+EXIT OBJECT/VALUE
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+SET Seq.RltdPties
+CREATE Messages.ISO.CAMTx053x001x02.Tns.TransactionAgents2Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.BranchAndFinancialInstitutionIdentification4Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.FinancialInstitutionIdentification7Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+VALUE string ESSESESS
+SET Seq.BIC
+SET Seq.FinInstnId
+SET Seq.DbtrAgt
+CREATE Messages.ISO.CAMTx053x001x02.Tns.BranchAndFinancialInstitutionIdentification4Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.FinancialInstitutionIdentification7Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+SET Seq.RltdAgts
+CREATE Messages.ISO.CAMTx053x001x02.Tns.Purpose2ChoiceCt
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.RemittanceInformation5Ct
+ENTER Seq.Ustrds
+VALUE string B81215944996
+ADD
+EXIT LIST
+ENTER Seq.Strds
+CREATE Messages.ISO.CAMTx053x001x02.Tns.StructuredRemittanceInformation7Ct
+ENTER Seq.RfrdDocInfs
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ReferredDocumentInformation3Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ReferredDocumentType2Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ReferredDocumentType1ChoiceCt
+VALUE enum NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT ITEM
+EXIT LIST
+CREATE Messages.ISO.CAMTx053x001x02.Tns.RemittanceAmount1Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ActiveOrHistoricCurrencyAndAmountCt
+VALUE string NULL
+EXIT OBJECT/VALUE
+VALUE number NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.CreditorReferenceInformation2Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.CreditorReferenceType2Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.CreditorReferenceType1ChoiceCt
+VALUE enum NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT ITEM
+EXIT LIST
+SET Seq.RmtInf
+ADD
+EXIT LIST
+ADD
+EXIT LIST
+ADD
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ReportEntry2Ct
+VALUE string INTERN ÖVERF-0029240
+SET Seq.NtryRef
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ActiveOrHistoricCurrencyAndAmountCt
+VALUE string SEK
+SET Ccy
+VALUE number 463000.00
+SET Value
+SET Seq.Amt
+VALUE enum Messages.ISO.CAMTx053x001x02.Tns.CreditDebitCodeEnum CRDT
+SET Seq.CdtDbtInd
+VALUE enum Messages.ISO.CAMTx053x001x02.Tns.EntryStatus2CodeEnum BOOK
+SET Seq.Sts
+CREATE Messages.ISO.CAMTx053x001x02.Tns.DateAndDateTimeChoiceCt
+VALUE date 2018-12-17T00:00:00
+SET Seq.Chc.Dt
+SET Seq.BookgDt
+CREATE Messages.ISO.CAMTx053x001x02.Tns.DateAndDateTimeChoiceCt
+VALUE date 2018-12-17T00:00:00
+SET Seq.Chc.Dt
+SET Seq.ValDt
+VALUE string STOI520111188400029240
+SET Seq.AcctSvcrRef
+CREATE Messages.ISO.CAMTx053x001x02.Tns.BankTransactionCodeStructure4Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.BankTransactionCodeStructure5Ct
+VALUE string PMNT
+SET Seq.Cd
+CREATE Messages.ISO.CAMTx053x001x02.Tns.BankTransactionCodeStructure6Ct
+VALUE string RCDT
+SET Seq.Cd
+VALUE string ATXN
+SET Seq.SubFmlyCd
+SET Seq.Fmly
+SET Seq.Domn
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ProprietaryBankTransactionCodeStructure1Ct
+VALUE string TRF
+SET Seq.Cd
+VALUE string SWIFT
+SET Seq.Issr
+SET Seq.Prtry
+SET Seq.BkTxCd
+ENTER Seq.NtryDtlss
+CREATE Messages.ISO.CAMTx053x001x02.Tns.EntryDetails1Ct
+ENTER Seq.TxDtlss
+CREATE Messages.ISO.CAMTx053x001x02.Tns.EntryTransaction2Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.TransactionReferences2Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+VALUE string NULL
+EXIT OBJECT/VALUE
+VALUE string NULL
+EXIT OBJECT/VALUE
+VALUE string NULL
+EXIT OBJECT/VALUE
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AmountAndCurrencyExchange3Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AmountAndCurrencyExchangeDetails3Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ActiveOrHistoricCurrencyAndAmountCt
+VALUE string SEK
+SET Ccy
+VALUE number 463000
+SET Value
+SET Seq.Amt
+SET Seq.TxAmt
+ENTER Seq.PrtryAmts
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AmountAndCurrencyExchangeDetails4Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ActiveOrHistoricCurrencyAndAmountCt
+VALUE string NULL
+EXIT OBJECT/VALUE
+VALUE number NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT ITEM
+EXIT LIST
+SET Seq.AmtDtls
+CREATE Messages.ISO.CAMTx053x001x02.Tns.TransactionParty2Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.PartyIdentification32Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.Party6ChoiceCt
+CREATE Messages.ISO.CAMTx053x001x02.Tns.PersonIdentification5Ct
+ENTER Seq.Othrs
+CREATE Messages.ISO.CAMTx053x001x02.Tns.GenericPersonIdentification1Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.PersonIdentificationSchemeName1ChoiceCt
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT ITEM
+EXIT LIST
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.PostalAddress6Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+VALUE string NULL
+EXIT OBJECT/VALUE
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.CashAccount16Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AccountIdentification4ChoiceCt
+CREATE Messages.ISO.CAMTx053x001x02.Tns.GenericAccountIdentification1Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AccountSchemeName1ChoiceCt
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.PartyIdentification32Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.Party6ChoiceCt
+CREATE Messages.ISO.CAMTx053x001x02.Tns.OrganisationIdentification4Ct
+ENTER Seq.Othrs
+CREATE Messages.ISO.CAMTx053x001x02.Tns.GenericOrganisationIdentification1Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.OrganisationIdentificationSchemeName1ChoiceCt
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT ITEM
+EXIT LIST
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.PartyIdentification32Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.CashAccount16Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AccountIdentification4ChoiceCt
+CREATE Messages.ISO.CAMTx053x001x02.Tns.GenericAccountIdentification1Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AccountSchemeName1ChoiceCt
+VALUE string NULL
+EXIT OBJECT/VALUE
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.TransactionAgents2Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.BranchAndFinancialInstitutionIdentification4Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.FinancialInstitutionIdentification7Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.BranchAndFinancialInstitutionIdentification4Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.FinancialInstitutionIdentification7Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.Purpose2ChoiceCt
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.RemittanceInformation5Ct
+ENTER Seq.Ustrds
+VALUE string 8461468153
+ADD
+EXIT LIST
+ENTER Seq.Strds
+CREATE Messages.ISO.CAMTx053x001x02.Tns.StructuredRemittanceInformation7Ct
+ENTER Seq.RfrdDocInfs
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ReferredDocumentInformation3Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ReferredDocumentType2Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ReferredDocumentType1ChoiceCt
+VALUE enum NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT ITEM
+EXIT LIST
+CREATE Messages.ISO.CAMTx053x001x02.Tns.RemittanceAmount1Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ActiveOrHistoricCurrencyAndAmountCt
+VALUE string NULL
+EXIT OBJECT/VALUE
+VALUE number NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.CreditorReferenceInformation2Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.CreditorReferenceType2Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.CreditorReferenceType1ChoiceCt
+VALUE enum NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT ITEM
+EXIT LIST
+SET Seq.RmtInf
+ADD
+EXIT LIST
+ADD
+EXIT LIST
+ADD
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ReportEntry2Ct
+VALUE string JAMBO 81518-0029248
+SET Seq.NtryRef
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ActiveOrHistoricCurrencyAndAmountCt
+VALUE string SEK
+SET Ccy
+VALUE number 2860.00
+SET Value
+SET Seq.Amt
+VALUE enum Messages.ISO.CAMTx053x001x02.Tns.CreditDebitCodeEnum DBIT
+SET Seq.CdtDbtInd
+VALUE enum Messages.ISO.CAMTx053x001x02.Tns.EntryStatus2CodeEnum BOOK
+SET Seq.Sts
+CREATE Messages.ISO.CAMTx053x001x02.Tns.DateAndDateTimeChoiceCt
+VALUE date 2018-12-17T00:00:00
+SET Seq.Chc.Dt
+SET Seq.BookgDt
+CREATE Messages.ISO.CAMTx053x001x02.Tns.DateAndDateTimeChoiceCt
+VALUE date 2018-12-17T00:00:00
+SET Seq.Chc.Dt
+SET Seq.ValDt
+VALUE string STOI520111188400029248
+SET Seq.AcctSvcrRef
+CREATE Messages.ISO.CAMTx053x001x02.Tns.BankTransactionCodeStructure4Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.BankTransactionCodeStructure5Ct
+VALUE string PMNT
+SET Seq.Cd
+CREATE Messages.ISO.CAMTx053x001x02.Tns.BankTransactionCodeStructure6Ct
+VALUE string ICDT
+SET Seq.Cd
+VALUE string DMCT
+SET Seq.SubFmlyCd
+SET Seq.Fmly
+SET Seq.Domn
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ProprietaryBankTransactionCodeStructure1Ct
+VALUE string TRF
+SET Seq.Cd
+VALUE string SWIFT
+SET Seq.Issr
+SET Seq.Prtry
+SET Seq.BkTxCd
+ENTER Seq.NtryDtlss
+CREATE Messages.ISO.CAMTx053x001x02.Tns.EntryDetails1Ct
+ENTER Seq.TxDtlss
+CREATE Messages.ISO.CAMTx053x001x02.Tns.EntryTransaction2Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.TransactionReferences2Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+VALUE string STONCM01181213170029017721000001
+SET Seq.AcctSvcrRef
+VALUE string Jambo 81518
+SET Seq.PmtInfId
+VALUE string NULL
+EXIT OBJECT/VALUE
+VALUE string NULL
+EXIT OBJECT/VALUE
+SET Seq.Refs
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AmountAndCurrencyExchange3Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AmountAndCurrencyExchangeDetails3Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ActiveOrHistoricCurrencyAndAmountCt
+VALUE string SEK
+SET Ccy
+VALUE number 2860.00
+SET Value
+SET Seq.Amt
+SET Seq.TxAmt
+ENTER Seq.PrtryAmts
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AmountAndCurrencyExchangeDetails4Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ActiveOrHistoricCurrencyAndAmountCt
+VALUE string NULL
+EXIT OBJECT/VALUE
+VALUE number NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT ITEM
+EXIT LIST
+SET Seq.AmtDtls
+CREATE Messages.ISO.CAMTx053x001x02.Tns.TransactionParty2Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.PartyIdentification32Ct
+VALUE string TEST Customer
+SET Seq.Nm
+CREATE Messages.ISO.CAMTx053x001x02.Tns.Party6ChoiceCt
+CREATE Messages.ISO.CAMTx053x001x02.Tns.PersonIdentification5Ct
+ENTER Seq.Othrs
+CREATE Messages.ISO.CAMTx053x001x02.Tns.GenericPersonIdentification1Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.PersonIdentificationSchemeName1ChoiceCt
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT ITEM
+EXIT LIST
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.PostalAddress6Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+VALUE string NULL
+EXIT OBJECT/VALUE
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+SET Seq.Dbtr
+CREATE Messages.ISO.CAMTx053x001x02.Tns.CashAccount16Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AccountIdentification4ChoiceCt
+CREATE Messages.ISO.CAMTx053x001x02.Tns.GenericAccountIdentification1Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AccountSchemeName1ChoiceCt
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.PartyIdentification32Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.Party6ChoiceCt
+CREATE Messages.ISO.CAMTx053x001x02.Tns.OrganisationIdentification4Ct
+ENTER Seq.Othrs
+CREATE Messages.ISO.CAMTx053x001x02.Tns.GenericOrganisationIdentification1Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.OrganisationIdentificationSchemeName1ChoiceCt
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT ITEM
+EXIT LIST
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.PartyIdentification32Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.CashAccount16Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AccountIdentification4ChoiceCt
+CREATE Messages.ISO.CAMTx053x001x02.Tns.GenericAccountIdentification1Ct
+VALUE string 080808080
+SET Seq.Id
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AccountSchemeName1ChoiceCt
+VALUE string BBAN
+SET Seq.Chc.Cd
+VALUE string NULL
+EXIT OBJECT/VALUE
+SET Seq.SchmeNm
+VALUE string NULL
+EXIT OBJECT/VALUE
+SET Seq.Chc.Othr
+SET Seq.Id
+SET Seq.CdtrAcct
+SET Seq.RltdPties
+CREATE Messages.ISO.CAMTx053x001x02.Tns.TransactionAgents2Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.BranchAndFinancialInstitutionIdentification4Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.FinancialInstitutionIdentification7Ct
+VALUE string Skandinaviska Enskilda Banken
+SET Seq.Nm
+VALUE string NULL
+EXIT OBJECT/VALUE
+SET Seq.FinInstnId
+SET Seq.DbtrAgt
+CREATE Messages.ISO.CAMTx053x001x02.Tns.BranchAndFinancialInstitutionIdentification4Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.FinancialInstitutionIdentification7Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+SET Seq.RltdAgts
+CREATE Messages.ISO.CAMTx053x001x02.Tns.Purpose2ChoiceCt
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.RemittanceInformation5Ct
+ENTER Seq.Ustrds
+VALUE string 81518
+ADD
+EXIT LIST
+ENTER Seq.Strds
+CREATE Messages.ISO.CAMTx053x001x02.Tns.StructuredRemittanceInformation7Ct
+ENTER Seq.RfrdDocInfs
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ReferredDocumentInformation3Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ReferredDocumentType2Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ReferredDocumentType1ChoiceCt
+VALUE enum NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT ITEM
+EXIT LIST
+CREATE Messages.ISO.CAMTx053x001x02.Tns.RemittanceAmount1Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ActiveOrHistoricCurrencyAndAmountCt
+VALUE string NULL
+EXIT OBJECT/VALUE
+VALUE number NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.CreditorReferenceInformation2Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.CreditorReferenceType2Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.CreditorReferenceType1ChoiceCt
+VALUE enum NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT ITEM
+EXIT LIST
+SET Seq.RmtInf
+ADD
+EXIT LIST
+ADD
+EXIT LIST
+ADD
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ReportEntry2Ct
+VALUE string JS2320361767-0029249
+SET Seq.NtryRef
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ActiveOrHistoricCurrencyAndAmountCt
+VALUE string SEK
+SET Ccy
+VALUE number 160222.00
+SET Value
+SET Seq.Amt
+VALUE enum Messages.ISO.CAMTx053x001x02.Tns.CreditDebitCodeEnum CRDT
+SET Seq.CdtDbtInd
+VALUE enum Messages.ISO.CAMTx053x001x02.Tns.EntryStatus2CodeEnum BOOK
+SET Seq.Sts
+CREATE Messages.ISO.CAMTx053x001x02.Tns.DateAndDateTimeChoiceCt
+VALUE date 2018-12-17T00:00:00
+SET Seq.Chc.Dt
+SET Seq.BookgDt
+CREATE Messages.ISO.CAMTx053x001x02.Tns.DateAndDateTimeChoiceCt
+VALUE date 2018-12-17T00:00:00
+SET Seq.Chc.Dt
+SET Seq.ValDt
+VALUE string STOI520111188400029249
+SET Seq.AcctSvcrRef
+CREATE Messages.ISO.CAMTx053x001x02.Tns.BankTransactionCodeStructure4Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.BankTransactionCodeStructure5Ct
+VALUE string PMNT
+SET Seq.Cd
+CREATE Messages.ISO.CAMTx053x001x02.Tns.BankTransactionCodeStructure6Ct
+VALUE string NTAV
+SET Seq.Cd
+VALUE string NTAV
+SET Seq.SubFmlyCd
+SET Seq.Fmly
+SET Seq.Domn
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ProprietaryBankTransactionCodeStructure1Ct
+VALUE string MSC MISCELLANEOUS
+SET Seq.Cd
+VALUE string SEB
+SET Seq.Issr
+SET Seq.Prtry
+SET Seq.BkTxCd
+ENTER Seq.NtryDtlss
+CREATE Messages.ISO.CAMTx053x001x02.Tns.EntryDetails1Ct
+ENTER Seq.TxDtlss
+CREATE Messages.ISO.CAMTx053x001x02.Tns.EntryTransaction2Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.TransactionReferences2Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+VALUE string NULL
+EXIT OBJECT/VALUE
+VALUE string NULL
+EXIT OBJECT/VALUE
+VALUE string NULL
+EXIT OBJECT/VALUE
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AmountAndCurrencyExchange3Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AmountAndCurrencyExchangeDetails3Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ActiveOrHistoricCurrencyAndAmountCt
+VALUE string SEK
+SET Ccy
+VALUE number 160222
+SET Value
+SET Seq.Amt
+SET Seq.TxAmt
+ENTER Seq.PrtryAmts
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AmountAndCurrencyExchangeDetails4Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ActiveOrHistoricCurrencyAndAmountCt
+VALUE string NULL
+EXIT OBJECT/VALUE
+VALUE number NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT ITEM
+EXIT LIST
+SET Seq.AmtDtls
+CREATE Messages.ISO.CAMTx053x001x02.Tns.TransactionParty2Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.PartyIdentification32Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.Party6ChoiceCt
+CREATE Messages.ISO.CAMTx053x001x02.Tns.PersonIdentification5Ct
+ENTER Seq.Othrs
+CREATE Messages.ISO.CAMTx053x001x02.Tns.GenericPersonIdentification1Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.PersonIdentificationSchemeName1ChoiceCt
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT ITEM
+EXIT LIST
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.PostalAddress6Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+VALUE string NULL
+EXIT OBJECT/VALUE
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.CashAccount16Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AccountIdentification4ChoiceCt
+CREATE Messages.ISO.CAMTx053x001x02.Tns.GenericAccountIdentification1Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AccountSchemeName1ChoiceCt
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.PartyIdentification32Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.Party6ChoiceCt
+CREATE Messages.ISO.CAMTx053x001x02.Tns.OrganisationIdentification4Ct
+ENTER Seq.Othrs
+CREATE Messages.ISO.CAMTx053x001x02.Tns.GenericOrganisationIdentification1Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.OrganisationIdentificationSchemeName1ChoiceCt
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT ITEM
+EXIT LIST
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.PartyIdentification32Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.CashAccount16Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AccountIdentification4ChoiceCt
+CREATE Messages.ISO.CAMTx053x001x02.Tns.GenericAccountIdentification1Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AccountSchemeName1ChoiceCt
+VALUE string NULL
+EXIT OBJECT/VALUE
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.TransactionAgents2Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.BranchAndFinancialInstitutionIdentification4Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.FinancialInstitutionIdentification7Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.BranchAndFinancialInstitutionIdentification4Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.FinancialInstitutionIdentification7Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.Purpose2ChoiceCt
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.RemittanceInformation5Ct
+ENTER Seq.Ustrds
+VALUE string JS2320361767
+ADD
+EXIT LIST
+ENTER Seq.Strds
+CREATE Messages.ISO.CAMTx053x001x02.Tns.StructuredRemittanceInformation7Ct
+ENTER Seq.RfrdDocInfs
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ReferredDocumentInformation3Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ReferredDocumentType2Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ReferredDocumentType1ChoiceCt
+VALUE enum NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT ITEM
+EXIT LIST
+CREATE Messages.ISO.CAMTx053x001x02.Tns.RemittanceAmount1Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ActiveOrHistoricCurrencyAndAmountCt
+VALUE string NULL
+EXIT OBJECT/VALUE
+VALUE number NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.CreditorReferenceInformation2Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.CreditorReferenceType2Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.CreditorReferenceType1ChoiceCt
+VALUE enum NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT ITEM
+EXIT LIST
+SET Seq.RmtInf
+ADD
+EXIT LIST
+ADD
+EXIT LIST
+ADD
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ReportEntry2Ct
+VALUE string 46706206020-0029254
+SET Seq.NtryRef
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ActiveOrHistoricCurrencyAndAmountCt
+VALUE string SEK
+SET Ccy
+VALUE number 100.00
+SET Value
+SET Seq.Amt
+VALUE enum Messages.ISO.CAMTx053x001x02.Tns.CreditDebitCodeEnum CRDT
+SET Seq.CdtDbtInd
+VALUE enum Messages.ISO.CAMTx053x001x02.Tns.EntryStatus2CodeEnum BOOK
+SET Seq.Sts
+CREATE Messages.ISO.CAMTx053x001x02.Tns.DateAndDateTimeChoiceCt
+VALUE date 2018-12-17T00:00:00
+SET Seq.Chc.Dt
+SET Seq.BookgDt
+CREATE Messages.ISO.CAMTx053x001x02.Tns.DateAndDateTimeChoiceCt
+VALUE date 2018-12-17T00:00:00
+SET Seq.Chc.Dt
+SET Seq.ValDt
+VALUE string STOI520111188400029254
+SET Seq.AcctSvcrRef
+CREATE Messages.ISO.CAMTx053x001x02.Tns.BankTransactionCodeStructure4Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.BankTransactionCodeStructure5Ct
+VALUE string PMNT
+SET Seq.Cd
+CREATE Messages.ISO.CAMTx053x001x02.Tns.BankTransactionCodeStructure6Ct
+VALUE string RCDT
+SET Seq.Cd
+VALUE string DMCT
+SET Seq.SubFmlyCd
+SET Seq.Fmly
+SET Seq.Domn
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ProprietaryBankTransactionCodeStructure1Ct
+VALUE string TRF
+SET Seq.Cd
+VALUE string SWIFT
+SET Seq.Issr
+SET Seq.Prtry
+SET Seq.BkTxCd
+ENTER Seq.NtryDtlss
+CREATE Messages.ISO.CAMTx053x001x02.Tns.EntryDetails1Ct
+ENTER Seq.TxDtlss
+CREATE Messages.ISO.CAMTx053x001x02.Tns.EntryTransaction2Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.TransactionReferences2Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+VALUE string STOBIR39181217202525818414000001
+SET Seq.AcctSvcrRef
+VALUE string 5668100188810111
+SET Seq.PmtInfId
+VALUE string A085B9BC534E4009AE2AA165518255CC
+SET Seq.InstrId
+VALUE string NOT PROVIDED
+SET Seq.EndToEndId
+SET Seq.Refs
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AmountAndCurrencyExchange3Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AmountAndCurrencyExchangeDetails3Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ActiveOrHistoricCurrencyAndAmountCt
+VALUE string SEK
+SET Ccy
+VALUE number 100.00
+SET Value
+SET Seq.Amt
+SET Seq.TxAmt
+ENTER Seq.PrtryAmts
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AmountAndCurrencyExchangeDetails4Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ActiveOrHistoricCurrencyAndAmountCt
+VALUE string NULL
+EXIT OBJECT/VALUE
+VALUE number NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT ITEM
+EXIT LIST
+SET Seq.AmtDtls
+CREATE Messages.ISO.CAMTx053x001x02.Tns.TransactionParty2Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.PartyIdentification32Ct
+VALUE string Debtor
+SET Seq.Nm
+CREATE Messages.ISO.CAMTx053x001x02.Tns.Party6ChoiceCt
+CREATE Messages.ISO.CAMTx053x001x02.Tns.PersonIdentification5Ct
+ENTER Seq.Othrs
+CREATE Messages.ISO.CAMTx053x001x02.Tns.GenericPersonIdentification1Ct
+VALUE string 45678901234
+SET Seq.Id
+CREATE Messages.ISO.CAMTx053x001x02.Tns.PersonIdentificationSchemeName1ChoiceCt
+VALUE string CUST
+SET Seq.Chc.Cd
+SET Seq.SchmeNm
+ADD
+EXIT LIST
+SET Seq.Chc.PrvtId
+SET Seq.Id
+CREATE Messages.ISO.CAMTx053x001x02.Tns.PostalAddress6Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+VALUE string NULL
+EXIT OBJECT/VALUE
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+SET Seq.Dbtr
+CREATE Messages.ISO.CAMTx053x001x02.Tns.CashAccount16Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AccountIdentification4ChoiceCt
+CREATE Messages.ISO.CAMTx053x001x02.Tns.GenericAccountIdentification1Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AccountSchemeName1ChoiceCt
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.PartyIdentification32Ct
+VALUE string TEST Customer
+SET Seq.Nm
+CREATE Messages.ISO.CAMTx053x001x02.Tns.Party6ChoiceCt
+CREATE Messages.ISO.CAMTx053x001x02.Tns.OrganisationIdentification4Ct
+ENTER Seq.Othrs
+CREATE Messages.ISO.CAMTx053x001x02.Tns.GenericOrganisationIdentification1Ct
+VALUE string 00331127800005
+SET Seq.Id
+CREATE Messages.ISO.CAMTx053x001x02.Tns.OrganisationIdentificationSchemeName1ChoiceCt
+VALUE string CUST
+SET Seq.Chc.Cd
+SET Seq.SchmeNm
+ADD
+EXIT LIST
+SET Seq.Chc.OrgId
+SET Seq.Id
+SET Seq.Cdtr
+CREATE Messages.ISO.CAMTx053x001x02.Tns.PartyIdentification32Ct
+VALUE string TEST Customer
+SET Seq.Nm
+SET Seq.UltmtCdtr
+CREATE Messages.ISO.CAMTx053x001x02.Tns.CashAccount16Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AccountIdentification4ChoiceCt
+CREATE Messages.ISO.CAMTx053x001x02.Tns.GenericAccountIdentification1Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.AccountSchemeName1ChoiceCt
+VALUE string NULL
+EXIT OBJECT/VALUE
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+SET Seq.RltdPties
+CREATE Messages.ISO.CAMTx053x001x02.Tns.TransactionAgents2Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.BranchAndFinancialInstitutionIdentification4Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.FinancialInstitutionIdentification7Ct
+VALUE string NULL
+EXIT OBJECT/VALUE
+VALUE string SKIASESS
+SET Seq.BIC
+SET Seq.FinInstnId
+SET Seq.DbtrAgt
+CREATE Messages.ISO.CAMTx053x001x02.Tns.BranchAndFinancialInstitutionIdentification4Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.FinancialInstitutionIdentification7Ct
+VALUE string ESSESESS
+SET Seq.BIC
+SET Seq.FinInstnId
+SET Seq.CdtrAgt
+SET Seq.RltdAgts
+CREATE Messages.ISO.CAMTx053x001x02.Tns.Purpose2ChoiceCt
+VALUE string SUPP
+SET Seq.Chc.Cd
+SET Seq.Purp
+CREATE Messages.ISO.CAMTx053x001x02.Tns.RemittanceInformation5Ct
+ENTER Seq.Ustrds
+VALUE string 84646156
+ADD
+EXIT LIST
+ENTER Seq.Strds
+CREATE Messages.ISO.CAMTx053x001x02.Tns.StructuredRemittanceInformation7Ct
+ENTER Seq.RfrdDocInfs
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ReferredDocumentInformation3Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ReferredDocumentType2Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ReferredDocumentType1ChoiceCt
+VALUE enum NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT ITEM
+EXIT LIST
+CREATE Messages.ISO.CAMTx053x001x02.Tns.RemittanceAmount1Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.ActiveOrHistoricCurrencyAndAmountCt
+VALUE string NULL
+EXIT OBJECT/VALUE
+VALUE number NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+CREATE Messages.ISO.CAMTx053x001x02.Tns.CreditorReferenceInformation2Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.CreditorReferenceType2Ct
+CREATE Messages.ISO.CAMTx053x001x02.Tns.CreditorReferenceType1ChoiceCt
+VALUE enum NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+VALUE string NULL
+EXIT OBJECT/VALUE
+EXIT OBJECT/VALUE
+EXIT ITEM
+EXIT LIST
+SET Seq.RmtInf
+ADD
+EXIT LIST
+ADD
+EXIT LIST
+ADD
+EXIT LIST
+ADD
+EXIT LIST
